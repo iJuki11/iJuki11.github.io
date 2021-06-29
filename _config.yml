@@ -4,14 +4,12 @@ description: > # your text below (remove <br> elements if you don't need line br
  <b>Profile</b>
  <br>
  A passionate artist, coder and new technologies enthusiast.
- <br>
+ <br><br>
  <b>Age</b>: 26
    <br>
  <b>Place</b>: Zagreb
   <br><br>
-  Done is better than perfect.
-  If you want to make something fun, have fun making it.
-  <br><br>
+ 
   <b>Skills</b>
   C#
   <br>
@@ -28,6 +26,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   Vuforia
   <br>
   AR Foundation
+  <br><br>
   
   <a href="https://www.artstation.com/juki11">View My Artstation Profile</a> 
   
