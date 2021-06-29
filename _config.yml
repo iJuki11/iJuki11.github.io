@@ -3,11 +3,7 @@ logo: "/images/profilna.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
  <b>Profile</b>
  <br>
- A passionate artist, coder and new technologies enthusiast.
- <br><br>
- <b>Age</b>: 26
-   <br>
- <b>Place</b>: Zagreb
+ A passionate artist, coder and new technologies enthusiast
   <br><br>
  
   <b>Skills</b>
@@ -29,6 +25,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   AR Foundation
   <br><br>
   <b>DETAILS</b>
+  <br>
   Zagreb,Croatia
   <br>
   +385 95 896 5148
