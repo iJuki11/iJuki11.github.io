@@ -1,6 +1,6 @@
 <h1>Real Time VFX<h2>
 
-<hr>
+<hr style="height:2px;border-width:0;color:gray;background-color:#a8790a>
 <h3>PhaseBeam</h3>
   <table>
     <tr>
