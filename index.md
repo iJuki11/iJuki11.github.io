@@ -6,7 +6,8 @@
 
 
 [Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<video width="1920" height ="1080">
+<source src= "videos/PhaseBeam_zoom.mp4 type="video/mp4">
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
