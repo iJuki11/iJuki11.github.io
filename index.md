@@ -3,7 +3,7 @@
 ---
 
 ### Real Time VFX
-### Phase Beam(/sample_page)
+[Phase Beam](sample_page)
 <video width="320" height="240" controls>
   <source src="videos/PhaseBeam_zoom.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
@@ -12,7 +12,7 @@
 
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+- [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
