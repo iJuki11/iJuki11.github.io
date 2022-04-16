@@ -3,26 +3,28 @@
 ---
 
 ### Real Time VFX
-Phase Beam
+PhaseBeam
 
-<video width="320" height="240" controls>
+<video width="1920" height="1080" controls>
   <source src="videos/PhaseBeam_zoom.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
 ---
-[Phase Beam no2 ](/pdf/sample_presentation.pdf)
-<video width="320" height="240" controls>
+PhaseBeam_02(/pdf/sample_presentation.pdf)
+<video width="1920" height="1080" controls>
   <source src="videos/PhaseBeam_back.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
 
+
+
 ---
 <p style="background-image: url('corto.jpg');">                     
 [Project 3 Title](http://example.com/)                          
-<video width="500" height="300" controls>
-  <source src="videos/PhaseBeam_back.mp4" type="video/mp4">         
+<video width="1920" height="1080" controls>
+  <source src="videos/PolyBlast.mp4" type="video/mp4">         
   <source src="movie.ogg" type="video/ogg">               
   Your browser does not support the video tag.                
 </video>
@@ -32,7 +34,33 @@ Phase Beam
   dasdasda
   
 </p>
+
+
+
+
+
+
+
+
+
 ---
+---
+<p style="background-image: url('corto.jpg');">                     
+[Project 3 Title](http://example.com/)                          
+<video width="1920" height="1080" controls>
+  <source src="videos/PulsBomb.mp4" type="video/mp4">         
+  <source src="movie.ogg" type="video/ogg">               
+  Your browser does not support the video tag.                
+</video>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  </p>
 
 ### Category Name 2
 
