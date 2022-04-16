@@ -28,7 +28,10 @@
 - [Project 5 Title](http://example.com/)
 ---
 
-  
+ body {
+  background-image: url("img_tree.gif"), url("paper.gif");
+  background-color: #cccccc;
+} 
 
 
 ---
