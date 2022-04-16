@@ -2,13 +2,21 @@ title: Ivan Jurić # your name (or website title) here
 logo: "/images/profilna.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
  <br>
- A passionate artist, coder and new technologies enthusiast
+ A passionate artist and coder
   <br><br>
  
   <b>Skills</b>
   <br>
-  C#
+  C# 
+  .dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
   <br>
+  2D Digital art
   Adobe Photoshop
   <br>
   Procreate
@@ -25,11 +33,6 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
   iv.juric95@gmail.com
   <br><br>
-<audio controls autoplay muted>
-  <source src="audio/Money.ogg" type="audio/ogg">
-  <source src="audio/Money.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
   
   
 theme: jekyll-theme-minimal
