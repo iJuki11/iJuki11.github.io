@@ -29,7 +29,7 @@
 ---
 
  body {
-  background-image: url("img_tree.gif"), url("paper.gif");
+  background-image: url("corto.jpg");
   background-color: #000000;
 } 
 
