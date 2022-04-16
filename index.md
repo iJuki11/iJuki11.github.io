@@ -1,9 +1,11 @@
 ## Portfolio
 
-### Category Name 1 
+### Real Time VFX
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Phase Beam](/sample_page)
+<video width="512" height="512" controls>
+  <source src="videos/PhaseBeam_zoom.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
