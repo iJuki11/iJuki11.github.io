@@ -30,5 +30,5 @@
 
 
 ---
-<p style="font-size:11px"/>
+<p style="background-image: url('img_girl.jpg');">
 <!-- Remove above link if you don't want to attibute -->
