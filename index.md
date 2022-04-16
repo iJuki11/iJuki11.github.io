@@ -70,5 +70,12 @@ p {
   border-style: solid;
   border-color: #555 transparent transparent transparent;
 }
+  <script>
+// When the user clicks on <div>, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
 </style>
 <!-- Remove above link if you don't want to attibute -->
