@@ -4,6 +4,12 @@
 
 ### Category Name 1 
 
+$websitename = 'Video Portfolio';
+$stylesheet = $root_dir . 'css/global.css';
+
+$responsive = true;
+$mediaelementplayer = true;
+
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
