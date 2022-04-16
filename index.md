@@ -6,8 +6,9 @@
 
 
 [Project 1 Title](/pdf/sample_presentation.pdf)
+<video src="videos/PhaseBeam_zoom.mp4" muted loop autoplay></video>
 <video width="1920" height="1080" controls>
-  <source src="movie.mp4" type="video/mp4">
+  <source src="videos/PhaseBeam_zoom.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
 
 ---
