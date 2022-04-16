@@ -30,5 +30,5 @@
 
 
 ---
-<p style="images/dummy_thumbnail.jpg?raw=true"/>
+<p style="background-image: url('corto.jpg');">
 <!-- Remove above link if you don't want to attibute -->
