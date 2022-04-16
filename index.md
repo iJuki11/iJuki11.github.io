@@ -58,4 +58,12 @@
 ---
 ### [Phase Beam]
 <body style="background-color:#92CEEB;">
+  <style>
+body {
+  background-image: url('corto.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
 <!-- Remove above link if you don't want to attibute -->
