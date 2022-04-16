@@ -28,7 +28,6 @@
 
 
 
-
 ---
 <p style="background-image: url('corto.jpg');">
 <!-- Remove above link if you don't want to attibute -->
