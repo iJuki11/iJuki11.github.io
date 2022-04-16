@@ -1,7 +1,6 @@
 title: Ivan Jurić # your name (or website title) here
 logo: "/images/profilna.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
- <b>Profile</b>
  <br>
  A passionate artist, coder and new technologies enthusiast
   <br><br>
@@ -12,17 +11,11 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
   Adobe Photoshop
   <br>
-  After effects
-  <br>
   Procreate
-  <br>
-  Houdini
   <br>
   Blender
   <br>
-  Vuforia
-  <br>
-  AR Foundation
+  Substance Designer
   <br><br>
   <b>DETAILS</b>
   <br>
@@ -32,6 +25,12 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
   iv.juric95@gmail.com
   <br><br>
+  
+  <audio controls>
+  <source src="audio/Money.ogg" type="audio/ogg">
+  <source src="audio/money.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
   
   
 theme: jekyll-theme-minimal
