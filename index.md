@@ -6,7 +6,7 @@
 
 
 [Project 1 Title](/sample_page)
-<head>
+<body>
 <video width="1920" height ="1080">
 <source src= "videos/PhaseBeam_zoom.mp4 type="video/mp4">
 
