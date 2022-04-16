@@ -21,7 +21,7 @@
 ### Category Name 2
 
 - [Project 1 Title](http://example.com/)
-- [Project 13 Title](/pdf/sample_presentation.pdf)
+- [Project 12 Title](/pdf/sample_presentation.pdf)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
