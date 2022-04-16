@@ -19,14 +19,23 @@
 
 
 ---
-<p> style="background-image: url('corto.jpg');">                     
+<head>
+<style>
+p {
+  background-image: url('corto.jpg');
+}
+</style>
+</head>                   
 <h3>PolyBlast</h1>                         
 <video width="500" height="300" controls>
   <source src="videos/PolyBlast.mp4" type="video/mp4">         
   <source src="movie.ogg" type="video/ogg">               
   Your browser does not support the video tag.                
 </video>
-</p>
+<br>
+<br>
+<br>
+<br>
 ---
 <p style="background-image: url('corto.jpg');">                     
 <h1>Pulse Bomb</h1>                        
