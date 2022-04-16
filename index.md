@@ -3,9 +3,7 @@
 ### Real Time VFX
 
 [Phase Beam](/sample_page)
-<video width="1080" height="1080" controls>
- <source src="videos/PhaseBeam_zoom.mp4" type="video/mp4">
- <source src="movie.ogg" type="video/ogg">
+
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
