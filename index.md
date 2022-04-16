@@ -22,18 +22,6 @@
 - [Project 4 Title](http://example.com/)
 - [Project 5 Title](http://example.com/)
 
----
-
-
-
-
----
-
-
-
-
----
-
 
 <p style="background-image: url('corto.jpg')">
 <!-- Remove above link if you don't want to attibute -->
