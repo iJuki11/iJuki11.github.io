@@ -29,7 +29,7 @@
 ---
 
 body {
-  background-image: url("corto.jpg");
+  background-image: url(corto.jpg);
 }
 
 
