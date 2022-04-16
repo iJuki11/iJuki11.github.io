@@ -10,16 +10,6 @@ Phase Beam
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
-
-
-<style>
-p {
-  background-image: url('corto.jpg');
-}
- <style>
-
-
-
 ---
 [Phase Beam no2 ](/pdf/sample_presentation.pdf)
 <video width="320" height="240" controls>
@@ -27,13 +17,16 @@ p {
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
+
 ---
+<p style="background-image: url('corto.jpg');">
 [Project 3 Title](http://example.com/)
 <video width="500" height="300" controls>
   <source src="videos/PhaseBeam_back.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
+</p>
 ---
 
 ### Category Name 2
