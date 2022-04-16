@@ -38,7 +38,7 @@
   <hr>
   <hr>Comic style<h3>
 
-<img src="Batman_2.jpg" width="500" height="300"> 
+<img src="Batman_2.jpg?raw=true"/>
 <hr>
 <img src="Astronauts.jpg" width="500" height="300">
 <hr>
@@ -47,9 +47,9 @@
  <h3>Line art<hr>
    <img src="DonaldLineArt.jpg?raw=true"/ width="500" height="300"> 
 <hr>
-    <img src="MikiMiniLineArt.jpg" width="500" height="300"> 
+    <img src="MikiMiniLineArt.jpg?raw=true"/ width="500" height="300"> 
 <hr>
-    <img src="MikiPlutoLineArt.jpg" width="500" height="300"> 
+    <img src="MikiPlutoLineArt.jpg?raw=true"/ width="500" height="300"> 
 <hr>
    
 
