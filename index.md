@@ -40,5 +40,5 @@ p {
   with ="4000"
   height="4000"
 }
-</style>
+<p style="font-size:11px">
 <!-- Remove above link if you don't want to attibute -->
