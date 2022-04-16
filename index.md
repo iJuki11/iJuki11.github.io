@@ -49,7 +49,7 @@
 ---
 <style>
 body {
-  background-image: url('images/cowboy2.jpg');
+  background-image: url('cowboy2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
