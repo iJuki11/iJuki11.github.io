@@ -37,10 +37,13 @@
 <h1>2D<h1>
   <hr>
 <h3>Comic style<h3>
-
-<img src="images/Batman_2.jpg?raw=true" width="300" height="300">
+  <table>
+  <tr>
+<td><img src="images/Batman_2.jpg?raw=true" width="300" height="300">
 <hr>
-<img src="images/Astronauts.png?raw=true" width="300" height="500">
+<td><img src="images/Astronauts.png?raw=true" width="300" height="500">
+  </tr>
+    </table>
 <hr>
 <br>
  <h3>Line art<hr>
