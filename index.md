@@ -54,7 +54,6 @@
    
 
 <hr>
- <p style="font-size:11px"
  <style>
 body {
   background-image: url('images/cowboy2.jpg');
