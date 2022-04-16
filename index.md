@@ -3,15 +3,14 @@
 ---
 
 ### Real Time VFX
-PhaseBeam
-
+<h1>PhaseBeam</h1>
 <video width="500" height="300" controls>
   <source src="videos/PhaseBeam_zoom.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
 ---
-PhaseBeam_02(/pdf/sample_presentation.pdf)
+<h1>PhaseBeam(back)</h1>
 <video width="500" height="300" controls>
   <source src="videos/PhaseBeam_back.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
@@ -22,7 +21,7 @@ PhaseBeam_02(/pdf/sample_presentation.pdf)
 
 ---
 <p style="background-image: url('corto.jpg');">                     
-[Project 3 Title](http://example.com/)                          
+<h1>PolyBlast</h1>                         
 <video width="500" height="300" controls>
   <source src="videos/PolyBlast.mp4" type="video/mp4">         
   <source src="movie.ogg" type="video/ogg">               
@@ -32,7 +31,7 @@ PhaseBeam_02(/pdf/sample_presentation.pdf)
 ---
 ---
 <p style="background-image: url('corto.jpg');">                     
-[Project 3 Title](http://example.com/)                          
+<h1>Pulse Bomb</h1>                        
 <video width="500" height="300" controls>
   <source src="videos/PulsBomb.mp4" type="video/mp4">         
   <source src="movie.ogg" type="video/ogg">               
