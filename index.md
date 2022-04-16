@@ -1,4 +1,3 @@
-###Portfolio
 <h1>Real Time VFX<h2>
 
 ---
@@ -16,7 +15,6 @@
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
-<br>
 
 ---  
 <h3>PolyBlast</h3>                         
@@ -27,7 +25,7 @@
 </video>
 
 ---                   
-<h1>Pulse Bomb</h1>                        
+<h1>Pulse Bomb</h3>                        
 <video width="500" height="300" controls>
   <source src="videos/PulsBomb.mp4" type="video/mp4">         
   <source src="movie.ogg" type="video/ogg">               
