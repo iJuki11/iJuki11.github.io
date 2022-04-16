@@ -28,10 +28,9 @@
 - [Project 5 Title](http://example.com/)
 ---
 
- body {
+body {
   background-image: url("corto.jpg");
-  background-color: #000000;
-} 
+}
 
 
 ---
