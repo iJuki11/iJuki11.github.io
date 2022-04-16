@@ -35,13 +35,23 @@
   <br>
   <br>
 <h1>2D<h1>
+  <hr>
+  <hr>Comic style<h3>
 
 <img src="Batman_2.jpg" width="500" height="300"> 
 <hr>
 <img src="Astronauts.jpg" width="500" height="300">
 <hr>
 <img src="DarthMaul.jpg" width="500" height="300">
-- [Project 5 Title](http://example.com/)
+<br>
+ <h3>Line art<hr>
+   <img src="DonaldLineArt.jpg?raw=true"/ width="500" height="300"> 
+<hr>
+    <img src="MikiMiniLineArt.jpg" width="500" height="300"> 
+<hr>
+    <img src="MikiPlutoLineArt.jpg" width="500" height="300"> 
+<hr>
+   
 
 <hr>
  <p style="font-size:11px"
