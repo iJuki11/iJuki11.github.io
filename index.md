@@ -30,7 +30,7 @@
 
  body {
   background-image: url("img_tree.gif"), url("paper.gif");
-  background-color: #cccccc;
+  background-color: #000000;
 } 
 
 
