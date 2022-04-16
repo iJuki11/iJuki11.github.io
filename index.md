@@ -7,7 +7,7 @@
 
 [Project 1 Title](/pdf/sample_presentation.pdf)
   <video width="512" height="512" controls>
-  <
+  
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
