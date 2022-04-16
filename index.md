@@ -38,7 +38,7 @@
   <hr>
 <h3>Comic style<h3>
 
-<img src="images/Batman_2.jpg?raw=true"/, width="500" height="300">
+<img src="images/Batman_2.jpg?raw=true", width="500" height="300">
 <hr>
 <img src="images/Astronauts.jpg" width="500" height="300">
 <hr>
