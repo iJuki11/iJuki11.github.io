@@ -19,10 +19,7 @@
 
 
 ---
-<style>
-p {
-  background-image: url('corto.jpg');
-}                  
+<p style="background-image: url('corto.jpg');">              
 <h3>PolyBlast</h1>                         
 <video width="500" height="300" controls>
   <source src="videos/PolyBlast.mp4" type="video/mp4">         
