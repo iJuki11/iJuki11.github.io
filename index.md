@@ -1,6 +1,6 @@
 <h1>Real Time VFX<h2>
 
----
+<hr>
 <h3>PhaseBeam</h3>
 <video width="500" height="300" controls>
   <source src="videos/PhaseBeam_zoom.mp4" type="video/mp4">
@@ -8,7 +8,7 @@
   Your browser does not support the video tag.
 </video>
 
----
+<hr>
 <h3>PhaseBeam(back)</h3>
 <video width="500" height="300" controls>
   <source src="videos/PhaseBeam_back.mp4" type="video/mp4">
@@ -33,7 +33,7 @@
 </video>
   
 ---
-### Category Name 2
+<h1>2D<h1>
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
