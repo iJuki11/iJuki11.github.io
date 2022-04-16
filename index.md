@@ -27,10 +27,9 @@
 - [Project 4 Title](http://example.com/)
 - [Project 5 Title](http://example.com/)
 ---
-
-body {
-  background-image: url(corto.jpg);
-}
+ </head>
+    <body style="background: url(corto.jpg)">
+   </body>
 
 
 ---
