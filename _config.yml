@@ -8,19 +8,6 @@ description: > # your text below (remove <br> elements if you don't need line br
   <b>Skills</b>
   <br>
   C# 
-  .dot {
-  height: 25px;
-  width: 25px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-}
-<div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-</div>
   <br>
   2D Digital art
   Adobe Photoshop
