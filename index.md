@@ -32,8 +32,6 @@
 ---
 ---
 ---
----
----
 
 
 <p style="background-image: url(corto.jpg)">
