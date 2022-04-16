@@ -5,19 +5,16 @@
   <table>
     <tr>
 <video width="500" height="300" controls>
-  <td><source src="videos/PhaseBeam_zoom.mp4" type="video/mp4"></td>
-  <td><source src="movie.ogg" type="video/ogg"></td>
+  <source src="videos/PhaseBeam_zoom.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
       
 <video width="500" height="300" controls>
- <td><source src="videos/PhaseBeam_back.mp4" type="video/mp4"></td>
-  <td><source src="movie.ogg" type="video/ogg"></td>
+ <source src="videos/PhaseBeam_back.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg"></td>
   Your browser does not support the video tag.
 </video>
-  </tr>
-    </table>
-
 <hr>  
 <h3>PolyBlast</h3>                         
 <video width="500" height="300" controls>
@@ -39,13 +36,10 @@
 <h1>2D<h1>
   <hr>
 <h3>Comic style<h3>
-  <table>
-  <tr>
-<td><img src="images/Batman_2.jpg?raw=true" width="300" height="300">
+<br>
+<img src="images/Batman_2.jpg?raw=true" width="300" height="300">
 <hr>
-<td><img src="images/Astronauts.png?raw=true" width="300" height="500">
-  </tr>
-    </table>
+<img src="images/Astronauts.png?raw=true" width="300" height="500">
 <hr>
 <br>
  <h3>Line art<hr>
