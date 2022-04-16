@@ -2,8 +2,6 @@
 
 <hr style="height:2px;border-width:0;color:gray;background-color:#365fc9">
 <h3>PhaseBeam</h3>
-  <table>
-    <tr>
 <video width="500" height="300" controls>
   <source src="videos/PhaseBeam_zoom.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
