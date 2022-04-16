@@ -1,4 +1,4 @@
-###Real Time VFX
+<h1>Real Time VFX<h2>
 
 ---
 
@@ -47,12 +47,12 @@
 
 
 ---
-###
+
 <style>
 body {
-  background-image: url('cowboy2.jpg');
+  background-image: url('img_girl.jpg');
   background-repeat: no-repeat;
-  background-attachment: fixed;  
+  background-attachment: fixed;
   background-size: cover;
 }
 </style>
