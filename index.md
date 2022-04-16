@@ -1,8 +1,7 @@
-## Portfolio
+### Real Time VFX
 
 ---
 
-### Real Time VFX
 <h1>PhaseBeam</h1>
 <video width="500" height="300" controls>
   <source src="videos/PhaseBeam_zoom.mp4" type="video/mp4">
@@ -20,7 +19,7 @@
 
 
 ---
-<p style="background-image: url('corto.jpg');">                     
+<p> style="background-image: url('corto.jpg');">                     
 <h1>PolyBlast</h1>                         
 <video width="500" height="300" controls>
   <source src="videos/PolyBlast.mp4" type="video/mp4">         
@@ -28,7 +27,6 @@
   Your browser does not support the video tag.                
 </video>
 </p>
----
 ---
 <p style="background-image: url('corto.jpg');">                     
 <h1>Pulse Bomb</h1>                        
