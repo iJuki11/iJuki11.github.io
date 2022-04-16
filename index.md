@@ -52,6 +52,8 @@
 <hr>
     <img src="images/MikiPlutoLineArt.jpg?raw=true" width="500" height="300"> 
 <hr>
+   <img src="images/SonicLineArt.jpg?raw=true" width="500" height="300"> 
+<hr>
    <br>
  <h3>Other<hr>
    <br>
