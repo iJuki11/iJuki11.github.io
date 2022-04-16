@@ -30,11 +30,9 @@
 - [Project 5 Title](http://example.com/)
 
 ---
-### Phase Beam(<video width="320" height="240" controls>
-  <source src="videos/PhaseBeam_zoom.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-</video>)
+### Phase Beam(<div class="popup" onclick="myFunction()">Click me!
+  <span class="popuptext" id="myPopup">Popup text...</span>
+</div>
 
 
 
