@@ -3,7 +3,7 @@
 ### Real Time VFX
 
 [Phase Beam](/sample_page)
-<video width="512" height="512" controls>
+<video width="256" height="256" controls>
  <source src="videos/PhaseBeam_zoom.mp4" type="video/mp4">
  <source src="movie.ogg" type="video/ogg">
 
