@@ -34,6 +34,6 @@
 
 ---
 ### [Phase Beam]
-<body style="background-image: url('corto2.jpg');">
+<body style="background-image: url('corto.jpg');">
 
 <!-- Remove above link if you don't want to attibute -->
