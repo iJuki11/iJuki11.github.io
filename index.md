@@ -16,7 +16,7 @@
   Your browser does not support the video tag.
 </video>
 
----  
+<hr>  
 <h3>PolyBlast</h3>                         
 <video width="500" height="300" controls>
   <source src="videos/PolyBlast.mp4" type="video/mp4">         
@@ -24,24 +24,26 @@
   Your browser does not support the video tag.                
 </video>
 
----                   
+<hr>                   
 <h3>Pulse Bomb<h3>                        
 <video width="500" height="300" controls>
   <source src="videos/PulsBomb.mp4" type="video/mp4">         
   <source src="movie.ogg" type="video/ogg">               
   Your browser does not support the video tag.                
 </video>
-  
----
+<hr>
+  <br>
+  <br>
 <h1>2D<h1>
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
+<img src="Batman_2.jpg" width="500" height="300"> 
+<hr>
+<img src="Astronauts.jpg" width="500" height="300">
+<hr>
+<img src="DarthMaul.jpg" width="500" height="300">
 - [Project 5 Title](http://example.com/)
 
----
+<hr>
  <p style="font-size:11px"
  <style>
 body {
