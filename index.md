@@ -7,8 +7,7 @@
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
-<video width="512" height="512" controls>
-<source src="videos/PhaseBeam_zoom.mp4" type="video/mp4"/>
+
 ---
 [Project 3 Title](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
