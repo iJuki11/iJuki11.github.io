@@ -3,18 +3,23 @@
 ---
 
 ### Real Time VFX
+<style>
+p {
+  background-image: url('corto.jpg');
+}
 [Phase Beam](sample_page)
 <video width="320" height="240" controls>
   <source src="videos/PhaseBeam_zoom.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
+<style>
 
 
 ---
 <style>
 p {
-  background-image: url('img_girl.jpg');
+  background-image: url('corto.jpg');
 }
 </style>
 [Phase Beam no2 ](/pdf/sample_presentation.pdf)
@@ -25,8 +30,15 @@ p {
 </video>
 ---
 [Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
+p {
+  background-image: url('corto.jpg');
+}
+</style>
+<video width="320" height="240" controls>
+  <source src="videos/PhaseBeam_back.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
 ---
 
 ### Category Name 2
