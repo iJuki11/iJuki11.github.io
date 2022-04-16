@@ -5,14 +5,14 @@
 ### Real Time VFX
 PhaseBeam
 
-<video width="1920" height="1080" controls>
+<video width="500" height="300" controls>
   <source src="videos/PhaseBeam_zoom.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
 ---
 PhaseBeam_02(/pdf/sample_presentation.pdf)
-<video width="1920" height="1080" controls>
+<video width="500" height="300" controls>
   <source src="videos/PhaseBeam_back.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
@@ -23,31 +23,17 @@ PhaseBeam_02(/pdf/sample_presentation.pdf)
 ---
 <p style="background-image: url('corto.jpg');">                     
 [Project 3 Title](http://example.com/)                          
-<video width="1920" height="1080" controls>
+<video width="500" height="300" controls>
   <source src="videos/PolyBlast.mp4" type="video/mp4">         
   <source src="movie.ogg" type="video/ogg">               
   Your browser does not support the video tag.                
 </video>
-  dsadasd
-  dasdasd
-  dsadas
-  dasdasda
-  
 </p>
-
-
-
-
-
-
-
-
-
 ---
 ---
 <p style="background-image: url('corto.jpg');">                     
 [Project 3 Title](http://example.com/)                          
-<video width="1920" height="1080" controls>
+<video width="500" height="300" controls>
   <source src="videos/PulsBomb.mp4" type="video/mp4">         
   <source src="movie.ogg" type="video/ogg">               
   Your browser does not support the video tag.                
