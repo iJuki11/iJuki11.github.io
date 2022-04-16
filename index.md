@@ -2,19 +2,21 @@
 
 <hr>
 <h3>PhaseBeam</h3>
-<video width="500" height="300" controls>
+  <table>
+    <tr>
+<td><video width="500" height="300" controls>
   <source src="videos/PhaseBeam_zoom.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
-
-<hr>
-<h3>PhaseBeam(back)</h3>
-<video width="500" height="300" controls>
+      
+<td><video width="500" height="300" controls>
   <source src="videos/PhaseBeam_back.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
+  </tr>
+    </table>
 
 <hr>  
 <h3>PolyBlast</h3>                         
