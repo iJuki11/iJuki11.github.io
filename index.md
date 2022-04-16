@@ -6,7 +6,7 @@
 
 
 [Project 1 Title](/pdf/sample_presentation.pdf)
-<video width="31920" height="1080" controls>
+<video width="1920" height="1080" controls>
   <source src="movie.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
 
