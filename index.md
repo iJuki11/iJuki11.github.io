@@ -1,7 +1,6 @@
 <h1>Real Time VFX<h2>
 
 ---
-
 <h3>PhaseBeam</h3>
 <video width="500" height="300" controls>
   <source src="videos/PhaseBeam_zoom.mp4" type="video/mp4">
@@ -10,7 +9,6 @@
 </video>
 
 ---
-
 <h3>PhaseBeam(back)</h3>
 <video width="500" height="300" controls>
   <source src="videos/PhaseBeam_back.mp4" type="video/mp4">
@@ -20,7 +18,6 @@
 <br>
 
 ---  
-
 <h3>PolyBlast</h3>                         
 <video width="500" height="300" controls>
   <source src="videos/PolyBlast.mp4" type="video/mp4">         
@@ -35,6 +32,7 @@
   <source src="movie.ogg" type="video/ogg">               
   Your browser does not support the video tag.                
 </video>
+  
 ---
 
 ### Category Name 2
@@ -48,7 +46,7 @@
 ---
   <style>
 body {
-  background-image: url('corto.jpg');
+  background-image: url('images/cowboy2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
