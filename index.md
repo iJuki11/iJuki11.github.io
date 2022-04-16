@@ -37,6 +37,8 @@
 <style>
 p {
   background-image: url('corto.jpg');
+  with ="4000"
+  height="4000"
 }
 </style>
 <!-- Remove above link if you don't want to attibute -->
