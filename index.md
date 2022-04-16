@@ -38,9 +38,9 @@
   <hr>
   <hr>Comic style<h3>
 
-<img src="Batman_2.jpg?raw=true"/>
+<img src="images/Batman_2.jpg?raw=true"/>
 <hr>
-<img src="Astronauts.jpg" width="500" height="300">
+<img src="images/Astronauts.jpg" width="500" height="300">
 <hr>
 <img src="DarthMaul.jpg" width="500" height="300">
 <br>
