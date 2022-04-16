@@ -40,9 +40,9 @@
 
 <img src="images/Batman_2.jpg?raw=true" width="300" height="300">
 <hr>
-<img src="images/Astronauts.jpg?raw=true" width="400" height="300">
+<img src="images/Astronauts.jpg?raw=true" width="1000" height="1000">
 <hr>
-<img src="images/DarthMaul.jpg?raw=true" width="400" height="300">
+<img src="images/DarthMaul.jpg?raw=true"/ width="1000" height="1000">
 <br>
  <h3>Line art<hr>
    <img src="images/DonaldLineArt.jpg?raw=true"/ width="500" height="300"> 
