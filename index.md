@@ -25,7 +25,7 @@
 </video>
 
 ---                   
-<h1>Pulse Bomb</h3>                        
+<h3>Pulse Bomb<h3>                        
 <video width="500" height="300" controls>
   <source src="videos/PulsBomb.mp4" type="video/mp4">         
   <source src="movie.ogg" type="video/ogg">               
@@ -42,11 +42,3 @@
 - [Project 5 Title](http://example.com/)
 
 ---
- <style>
-body {
-  background-image: url('images/cowboy2.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-</style>
