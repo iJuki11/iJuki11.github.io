@@ -7,7 +7,13 @@ description: > # your text below (remove <br> elements if you don't need line br
  
   <b>Skills</b>
   <br>
-  C# 
+  C# <div style="text-align:center">
+  <h1>Round Dots / Circles</h1>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
   <br>
   2D Digital art
   Adobe Photoshop
