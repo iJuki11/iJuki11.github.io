@@ -40,7 +40,7 @@
 
 <img src="images/Batman_2.jpg?raw=true" width="300" height="300">
 <hr>
-<img src="images/Astronauts.jpg?raw=true" width="1000" height="1000">
+<img src="images/Astronauts.png?raw=true" width="500" height="300">
 <hr>
 <img src="images/DarthMaul.jpg?raw=true"/ width="1000" height="1000">
 <br>
