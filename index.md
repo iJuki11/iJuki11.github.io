@@ -2,25 +2,25 @@
 
 ---
 
-<h3>PhaseBeam</h1>
+<h3>PhaseBeam</h3>
 <video width="500" height="300" controls>
   <source src="videos/PhaseBeam_zoom.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
+
 ---
-<h3>PhaseBeam(back)</h1>
+
+<h3>PhaseBeam(back)</h3>
 <video width="500" height="300" controls>
   <source src="videos/PhaseBeam_back.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
 
+---  
 
-
----
-<p style="background-image: url('corto.jpg');">              
-<h3>PolyBlast</h1>                         
+<h3>PolyBlast</h3>                         
 <video width="500" height="300" controls>
   <source src="videos/PolyBlast.mp4" type="video/mp4">         
   <source src="movie.ogg" type="video/ogg">               
@@ -30,8 +30,7 @@
 <br>
 <br>
 <br>
----
-<p style="background-image: url('corto.jpg');">                     
+---                    
 <h1>Pulse Bomb</h1>                        
 <video width="500" height="300" controls>
   <source src="videos/PulsBomb.mp4" type="video/mp4">         
@@ -46,7 +45,6 @@
   <br>
   <br>
   <br>
-  </p>
 
 ### Category Name 2
 
@@ -61,7 +59,7 @@
 <body style="background-color:#92CEEB;">
   <style>
 body {
-  background-image: url('corto.jpg');
+  background-image: url('images/cowboy.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
