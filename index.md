@@ -46,5 +46,13 @@
 - [Project 5 Title](http://example.com/)
 
 ---
-<p style="background-image: url('images/cowboy2.jpg');">
+  <style>
+body {
+  background-image: url('corto.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
 
