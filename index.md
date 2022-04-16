@@ -1,4 +1,4 @@
-<h1>Real Time VFX<h1>
+###<h1>Real Time VFX<h1>
 
 ---
 
@@ -47,6 +47,7 @@
 
 
 ---
+###
 <style>
 body {
   background-image: url('cowboy2.jpg');
