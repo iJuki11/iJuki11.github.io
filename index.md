@@ -57,7 +57,7 @@
    <br>
  <h3>Other<hr>
    <br>
-<img src="images/orc.jpg?raw=true" width="500" height="300">
+<img src="images/orc.png?raw=true" width="500" height="300">
    <hr>
    <img src="images/Map_1.jpg?raw=true" width="500" height="300"> 
 <hr>
