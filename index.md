@@ -4,7 +4,9 @@
 
 ### Real Time VFX
 
+<div>
 [Phase beam]
+<div>
 <video width="512" height="512" controls>
 <source src="videos/PhaseBeam_zoom.mp4" type="video/mp4"/>
 
