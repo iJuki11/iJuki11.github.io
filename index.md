@@ -17,6 +17,7 @@
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
+<br>
 
 ---  
 
@@ -26,10 +27,7 @@
   <source src="movie.ogg" type="video/ogg">               
   Your browser does not support the video tag.                
 </video>
-<br>
-<br>
-<br>
-<br>
+
 ---                    
 <h1>Pulse Bomb</h1>                        
 <video width="500" height="300" controls>
@@ -37,14 +35,7 @@
   <source src="movie.ogg" type="video/ogg">               
   Your browser does not support the video tag.                
 </video>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+---
 
 ### Category Name 2
 
@@ -55,11 +46,9 @@
 - [Project 5 Title](http://example.com/)
 
 ---
-### [Phase Beam]
-<body style="background-color:#92CEEB;">
-  <style>
+<style>
 body {
-  background-image: url('images/cowboy.jpg');
+  background-image: url('images/cowboy2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
