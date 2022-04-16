@@ -36,5 +36,9 @@
 ---
 
 
-<p style="background-image: url('corto.jpg')">
+<style>
+p {
+  background-image: url('corto.jpg');
+}
+</style>
 <!-- Remove above link if you don't want to attibute -->
