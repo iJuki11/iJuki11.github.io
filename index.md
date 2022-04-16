@@ -39,6 +39,9 @@
 <br>
 <img src="images/Batman_2.jpg?raw=true" width="300" height="300">
 <hr>
+<br>
+<img src="images/Avengers-chibi.jpg?raw=true" width="300" height="300">
+<hr>
 <img src="images/Astronauts.png?raw=true" width="300" height="500">
 <hr>
 <br>
@@ -49,6 +52,14 @@
 <hr>
     <img src="images/MikiPlutoLineArt.jpg?raw=true" width="500" height="300"> 
 <hr>
+   <br>
+ <h3>Other<hr>
+   <br>
+<img src="images/orc.jpg?raw=true" width="500" height="300">
+   <hr>
+   <img src="images/Map_1.jpg?raw=true" width="500" height="300"> 
+<hr>
+   
    
 
 <hr>
