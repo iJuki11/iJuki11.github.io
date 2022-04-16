@@ -12,6 +12,11 @@
 
 
 ---
+<style>
+p {
+  background-image: url('img_girl.jpg');
+}
+</style>
 [Phase Beam no2 ](/pdf/sample_presentation.pdf)
 <video width="320" height="240" controls>
   <source src="videos/PhaseBeam_back.mp4" type="video/mp4">
@@ -34,6 +39,5 @@
 
 ---
 ### [Phase Beam]
-<body style="background-image: url('corto.jpg');">
 
 <!-- Remove above link if you don't want to attibute -->
