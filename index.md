@@ -1,3 +1,4 @@
+###Portfolio
 <h1>Real Time VFX<h2>
 
 ---
@@ -25,7 +26,7 @@
   Your browser does not support the video tag.                
 </video>
 
----                    
+---                   
 <h1>Pulse Bomb</h1>                        
 <video width="500" height="300" controls>
   <source src="videos/PulsBomb.mp4" type="video/mp4">         
@@ -34,7 +35,6 @@
 </video>
   
 ---
-
 ### Category Name 2
 
 - [Project 1 Title](http://example.com/)
@@ -44,7 +44,7 @@
 - [Project 5 Title](http://example.com/)
 
 ---
-  <style>
+ <style>
 body {
   background-image: url('images/cowboy2.jpg');
   background-repeat: no-repeat;
@@ -52,5 +52,3 @@ body {
   background-size: cover;
 }
 </style>
-
-
