@@ -7,8 +7,6 @@
 
 [Project 1 Title](/pdf/sample_presentation.pdf)
 <video src="videos/PhaseBeam_zoom.mp4" muted loop autoplay></video>
-
-
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
