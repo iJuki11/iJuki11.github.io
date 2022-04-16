@@ -42,14 +42,14 @@
 <hr>
 <img src="images/Astronauts.jpg" width="500" height="300">
 <hr>
-<img src="DarthMaul.jpg" width="500" height="300">
+<img src="images/DarthMaul.jpg" width="500" height="300">
 <br>
  <h3>Line art<hr>
-   <img src="DonaldLineArt.jpg?raw=true"/ width="500" height="300"> 
+   <img src="images/DonaldLineArt.jpg?raw=true"/ width="500" height="300"> 
 <hr>
-    <img src="MikiMiniLineArt.jpg?raw=true"/ width="500" height="300"> 
+    <img src="images/MikiMiniLineArt.jpg?raw=true"/ width="500" height="300"> 
 <hr>
-    <img src="MikiPlutoLineArt.jpg?raw=true"/ width="500" height="300"> 
+    <img src="images/MikiPlutoLineArt.jpg?raw=true"/ width="500" height="300"> 
 <hr>
    
 
