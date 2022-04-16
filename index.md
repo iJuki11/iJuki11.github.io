@@ -5,7 +5,7 @@
 ### Category Name 1 
 
 
-[Project 1 Title]()
+[Project 1 Title](/pdf/sample_presentation.pdf)
 <video width="1920" height ="1080">
 <source src= "videos/PhaseBeam_zoom.mp4 type="video/mp4">
 
