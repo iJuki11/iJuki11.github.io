@@ -1,6 +1,6 @@
 <h1>Real Time VFX<h2>
 
-<hr style="height:2px;border-width:0;color:gray;background-color:#f5be3d">
+<hr style="height:2px;border-width:0;color:gray;background-color:#365fc9">
 <h3>PhaseBeam</h3>
   <table>
     <tr>
@@ -15,7 +15,7 @@
   <source src="movie.ogg" type="video/ogg"></td>
   Your browser does not support the video tag.
 </video>
-<hr style="height:2px;border-width:0;color:gray;background-color:#f5be3d">  
+<hr style="height:2px;border-width:0;color:gray;background-color:#365fc9"> 
 <h3>PolyBlast</h3>                         
 <video width="500" height="300" controls>
   <source src="videos/PolyBlast.mp4" type="video/mp4">         
@@ -23,48 +23,46 @@
   Your browser does not support the video tag.                
 </video>
 
-<hr style="height:2px;border-width:0;color:gray;background-color:#f5be3d">                  
+<hr style="height:2px;border-width:0;color:gray;background-color:#365fc9">                  
 <h3>Pulse Bomb<h3>                        
 <video width="500" height="300" controls>
   <source src="videos/PulsBomb.mp4" type="video/mp4">         
   <source src="movie.ogg" type="video/ogg">               
   Your browser does not support the video tag.                
 </video>
-<hr style="height:2px;border-width:0;color:gray;background-color:#f5be3d">
+<hr style="height:2px;border-width:0;color:gray;background-color:#365fc9">
   <br>
   <br>
 <h1>2D<h1>
- <hr style="height:2px;border-width:0;color:gray;background-color:#f5be3d">
+ <hr style="height:2px;border-width:0;color:gray;background-color:#365fc9">
 <h3>Comic style<h3>
 <br>
 <img src="images/Batman_2.jpg?raw=true" width="300" height="300">
-<hr>
+<hr style="height:2px;border-width:0;color:gray;background-color:#365fc9">
 <br>
 <img src="images/Avengers-chibi.jpg?raw=true" width="300" height="300">
-<hr>
+<hr style="height:2px;border-width:0;color:gray;background-color:#365fc9">
 <img src="images/Astronauts.png?raw=true" width="300" height="500">
-<hr style="height:2px;border-width:0;color:gray;background-color:#f5be3d">
+<hr style="height:2px;border-width:0;color:gray;background-color:#365fc9">
 <br>
- <h3>Line art<hr>
+ <h3>Line art<h3>
    <img src="images/DonaldLineArt.jpg?raw=true" width="500" height="300"> 
-<hr style="height:2px;border-width:0;color:gray;background-color:#f5be3d">
+<hr style="height:2px;border-width:0;color:gray;background-color:#365fc9">
     <img src="images/MikiMiniLineArt.jpg?raw=true" width="500" height="300"> 
-<hr style="height:2px;border-width:0;color:gray;background-color:#f5be3d">
+<hr style="height:2px;border-width:0;color:gray;background-color:#365fc9">
     <img src="images/MikiPlutoLineArt.jpg?raw=true" width="500" height="300"> 
-<hr style="height:2px;border-width:0;color:gray;background-color:#f5be3d">
+<hr style="height:2px;border-width:0;color:gray;background-color:#365fc9">
    <img src="images/SonicLineArt.jpg?raw=true" width="500" height="300"> 
-<hr style="height:2px;border-width:0;color:gray;background-color:#f5be3d">
+<hr style="height:2px;border-width:0;color:gray;background-color:#365fc9">
    <br>
- <h3>Other<hr>
+ <h3>Other<h3>
    <br>
 <img src="images/orc.png?raw=true" width="500" height="300">
-  <hr style="height:2px;border-width:0;color:gray;background-color:#f5be3d">
+  <hr style="height:2px;border-width:0;color:gray;background-color:#365fc9">
    <img src="images/Map_1.jpg?raw=true" width="500" height="300"> 
-<hr style="height:2px;border-width:0;color:gray;background-color:#f5be3d">
+<hr style="height:2px;border-width:0;color:gray;background-color:#365fc9">
    
    
-
-<hr style="height:2px;border-width:0;color:gray;background-color:#f5be3d">
  <style>
 body {
   background-image: url('images/cowboy2.jpg');
