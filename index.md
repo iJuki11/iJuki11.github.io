@@ -2,7 +2,7 @@
 
 ---
 
-### Category Name 1 
+### VFX 
 
 
 [Project 1 Title](/pdf/sample_presentation.pdf)
