@@ -47,7 +47,7 @@
 </video>
 <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
  
-<h1>Made following the Rebelway's course<h2> 
+<h2>Made following the Rebelway's course<h2> 
 <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
 <h3>PhaseBeam</h3>
 <video width="500" height="300" controls>
