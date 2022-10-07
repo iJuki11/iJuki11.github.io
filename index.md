@@ -23,7 +23,6 @@
   <source src="movie.ogg" type="video/ogg">               
   Your browser does not support the video tag.                
 </video>
-<hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
  
 <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">                 
 <h3>Explosion<h3>                        
@@ -32,7 +31,25 @@
   <source src="movie.ogg" type="video/ogg">               
   Your browser does not support the video tag.                
 </video>
-  
+
+<hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">                 
+<h3>Explosion<h3>                        
+<video width="500" height="300" controls>
+  <source src="videos/Meteor.mp4" type="video/mp4">         
+  <source src="movie.ogg" type="video/ogg">               
+  Your browser does not support the video tag.                
+</video>
+ 
+<hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">                 
+<h3>Fire Camp<h3>                        
+<video width="500" height="300" controls>
+  <source src="videos/FireCamp.mp4" type="video/mp4">         
+  <source src="movie.ogg" type="video/ogg">               
+  Your browser does not support the video tag.                
+</video>
+ 
+<hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
+<h1>Made following the Rebelway's course<h2> 
 <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
 <h3>PhaseBeam</h3>
 <video width="500" height="300" controls>
@@ -46,6 +63,7 @@
   <source src="movie.ogg" type="video/ogg"></td>
   Your browser does not support the video tag.
 </video>
+ 
 <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
 <h3>PolyBlast</h3>                         
 <video width="500" height="300" controls>
@@ -61,18 +79,8 @@
   <source src="movie.ogg" type="video/ogg">               
   Your browser does not support the video tag.                
 </video>
-
-<hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">                 
-<h3>Fire Camp<h3>                        
-<video width="500" height="300" controls>
-  <source src="videos/FireCamp.mp4" type="video/mp4">         
-  <source src="movie.ogg" type="video/ogg">               
-  Your browser does not support the video tag.                
-</video>
-
-
-
-
+ 
+<hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
   <br>
   <br>
 <h1>2D<h1>
