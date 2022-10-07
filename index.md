@@ -15,6 +15,23 @@
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
+ 
+<hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">                 
+<h3>Sword Slash<h3>                        
+<video width="500" height="300" controls>
+  <source src="videos/SwordSlash.mp4" type="video/mp4">         
+  <source src="movie.ogg" type="video/ogg">               
+  Your browser does not support the video tag.                
+</video>
+<hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
+ 
+<hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">                 
+<h3>Explosion<h3>                        
+<video width="500" height="300" controls>
+  <source src="videos/Explosion.mp4" type="video/mp4">         
+  <source src="movie.ogg" type="video/ogg">               
+  Your browser does not support the video tag.                
+</video>
   
 <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
 <h3>PhaseBeam</h3>
@@ -53,22 +70,9 @@
   Your browser does not support the video tag.                
 </video>
 
-<hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">                 
-<h3>Explosion<h3>                        
-<video width="500" height="300" controls>
-  <source src="videos/Explosion.mp4" type="video/mp4">         
-  <source src="movie.ogg" type="video/ogg">               
-  Your browser does not support the video tag.                
-</video>
 
-<hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">                 
-<h3>Sword Slash<h3>                        
-<video width="500" height="300" controls>
-  <source src="videos/SwordSlash.mp4" type="video/mp4">         
-  <source src="movie.ogg" type="video/ogg">               
-  Your browser does not support the video tag.                
-</video>
-<hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
+
+
   <br>
   <br>
 <h1>2D<h1>
