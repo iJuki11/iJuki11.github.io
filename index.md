@@ -33,7 +33,7 @@
 </video>
 
 <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">                 
-<h3>Explosion<h3>                        
+<h3>Meteor<h3>                        
 <video width="500" height="300" controls>
   <source src="videos/Meteor.mp4" type="video/mp4">         
   <source src="movie.ogg" type="video/ogg">               
