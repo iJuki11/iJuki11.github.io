@@ -1,19 +1,4 @@
 <h1>Real Time VFX<h2>
-
-<hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
-<h3>Hit</h3>
-<video width="500" height="300" controls>
-  <source src="videos/angle_01.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
-  
-<video width="500" height="300" controls>
-  <source src="videos/angle_02.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
- 
 <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">                 
 <h3>Sword Slash<h3>                        
 <video width="500" height="300" controls>
