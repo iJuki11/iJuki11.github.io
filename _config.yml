@@ -1,8 +1,13 @@
 title: Ivan Jurić # your name (or website title) here
-logo: # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  <br><br>
+  <b>About</b>
+  I primarily work as a VFX Artist, creating visual effects in Unreal Engine and Unity.
+  While my main focus is VFX, I also have experience with C#, HLSL, 2D art, and animation to a certain extent.
+  In Unity, I handle both VFX and programming, leveraging my technical understanding to optimize and implement effects efficiently.
+  I enjoy combining art and tech to bring dynamic visuals to life!
+  <br>
   <b>SKILLS</b>
+  <br>
   <br>
   VFX
   <br>
@@ -10,8 +15,8 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
   2D art
   <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
-  
    <b>Shipped Titles</b>
+   <br>
    <br>
    <a href="https://store.playstation.com/en-hr/product/EP7345-PPSA20372_00-0018074913236815" target="_blank">Cosmic Paradox</a>
    <br>
@@ -20,9 +25,9 @@ description: > # your text below (remove <br> elements if you don't need line br
    <a href="https://store.playstation.com/en-hr/product/EP7345-PPSA20372_00-0018074913236815" target="_blank">Cosmic Paradox</a>
    <br>
 
-   <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
- 
+   <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4"> 
   <b>TOOLS</b>
+  <br>
   <br>
   Adobe Photoshop
   <br>
@@ -41,6 +46,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   EmberGen
   <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
   <b>DETAILS</b>
+  <br>
   <br>
   Zagreb, Croatia
   <br>
