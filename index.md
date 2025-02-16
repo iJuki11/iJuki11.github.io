@@ -164,7 +164,7 @@
             top: 100%;
             left: 50%;
             transform: translateX(-50%);
-            background-color: rgba(0, 0, 255, 0.9);
+            background-color: #4b72b4;
             padding: 20px;
             color: white;
             font-size: 18px;
