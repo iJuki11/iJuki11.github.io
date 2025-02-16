@@ -116,7 +116,7 @@
         .project iframe, .project video {
             width: 500px;
             height: 300px;
-            margin-top: 50px;
+            margin-top: 80px; /* Added space to avoid pop-up window overlap */
         }
 
         /* Popup for Shipped Projects */
@@ -163,47 +163,4 @@
 
     <!-- Project Sections -->
     <div id="project1" class="project active">
-        <h2>VFX Reel</h2>
-        <video width="500" height="300" controls muted>
-            <source src="videos/FxReel.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-
-    <div id="project2" class="project">
-        <h2>Explosion</h2>
-        <video width="500" height="300" controls muted>
-            <source src="videos/Explosion.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-
-    <div id="project3" class="project">
-        <h2>Meteor</h2>
-        <video width="500" height="300" controls muted>
-            <source src="videos/Meteor.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-
-    <div id="project4" class="project">
-        <h2>Illustration</h2>
-        <img src="images/illustration.jpg" width="400">
-    </div>
-
-    <div id="project5" class="project">
-        <h2>Character Design</h2>
-        <img src="images/character.jpg" width="400">
-    </div>
-
-    <script>
-        function showProject(projectId) {
-            let projects = document.querySelectorAll('.project');
-            projects.forEach(project => project.classList.remove('active'));
-
-            document.getElementById(projectId).classList.add('active');
-        }
-    </script>
-
-</body>
-</html>
+      
