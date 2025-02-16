@@ -1,5 +1,4 @@
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -301,8 +300,7 @@
                     <source src="videos/Noire/Text_vfx.mp4" type="video/mp4">
                 </video>
             </div>
-        </div>
-    </div>
+
 
     <script>
         // When clicking on VFX Reel
@@ -320,5 +318,3 @@
         });
     </script>
 
-</body>
-</html>
