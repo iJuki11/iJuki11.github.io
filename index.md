@@ -119,14 +119,30 @@
             margin-top: 50px;
         }
 
-        /* Popup for Shipped Projects */
+        /* Style for the videos and text */
+        .videos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .videos h4 {
+            width: 100%;
+            text-align: center;
+        }
+
+        .video-container {
+            margin: 20px;
+        }
+
+        /* Blue popup style */
         .popup {
             display: none;
             position: absolute;
             top: 100%;
             left: 50%;
             transform: translateX(-50%);
-            background-color: rgba(0, 0, 255, 0.9); /* Changed to blue */
+            background-color: rgba(0, 0, 255, 0.9);
             padding: 20px;
             color: white;
             font-size: 18px;
@@ -138,24 +154,6 @@
 
         .category:hover .popup {
             display: block;
-        }
-
-        /* Pop-up content for Cosmic Paradox */
-        .popup-content {
-            display: none;
-            padding-top: 20px;
-        }
-
-        .show-content .popup-content {
-            display: block;
-        }
-
-        .popup-content h4 {
-            margin-bottom: 10px;
-        }
-
-        .popup-content video {
-            margin: 5px 0;
         }
 
     </style>
@@ -171,52 +169,10 @@
         <div class="category">
             Shipped Projects
             <!-- Pop-up window with project names -->
-            <div class="popup" onclick="showPopupContent()">
+            <div class="popup">
                 <p><strong>Cosmic Paradox: Noire</strong></p>
                 <p><strong>Magnitude / Magnitude Epsilon</strong></p>
                 <p><strong>Puzzle Piecer: The World Below</strong></p>
-                <!-- Pop-up content for Cosmic Paradox -->
-                <div class="popup-content">
-                    <h4>Backgrounds</h4>
-                    <video controls muted>
-                        <source src="videos/BackGroundMissionRecapDesign.mp4" type="video/mp4">
-                    </video>
-                    <video controls muted>
-                        <source src="videos/LevelDesign_01.mp4" type="video/mp4">
-                    </video>
-                    <video controls muted>
-                        <source src="videos/LevelDesign_02.mp4" type="video/mp4">
-                    </video>
-                    <video controls muted>
-                        <source src="videos/LevelDesign_03.mp4" type="video/mp4">
-                    </video>
-
-                    <h4>Some VFX</h4>
-                    <video controls muted>
-                        <source src="videos/Rampage.mp4" type="video/mp4">
-                    </video>
-                    <video controls muted>
-                        <source src="videos/ShieldVFX.mp4" type="video/mp4">
-                    </video>
-
-                    <h4>Splash Screen</h4>
-                    <video controls muted>
-                        <source src="videos/SplashScreen_vfx.mp4" type="video/mp4">
-                    </video>
-
-                    <h4>Text VFX</h4>
-                    <video controls muted>
-                        <source src="videos/Text_vfx.mp4" type="video/mp4">
-                    </video>
-
-                    <h4>UI Effects</h4>
-                    <video controls muted>
-                        <source src="videos/UIVFX_01.mp4" type="video/mp4">
-                    </video>
-                    <video controls muted>
-                        <source src="videos/UIVFX_02.mp4" type="video/mp4">
-                    </video>
-                </div>
             </div>
         </div>
     </div>
@@ -256,11 +212,63 @@
         <img src="images/character.jpg" width="400">
     </div>
 
+    <!-- Cosmic Paradox Section (Hidden by default) -->
+    <div id="cosmic-paradox" class="project">
+        <h2>Cosmic Paradox: Noire</h2>
+        <div class="videos">
+            <div class="video-container">
+                <h4>Backgrounds</h4>
+                <video controls muted>
+                    <source src="videos/Noire/BackGroundMissionRecapDesign.mp4" type="video/mp4">
+                </video>
+                <video controls muted>
+                    <source src="videos/Noire/LevelDesign_01.mp4" type="video/mp4">
+                </video>
+                <video controls muted>
+                    <source src="videos/Noire/LevelDesign_02.mp4" type="video/mp4">
+                </video>
+                <video controls muted>
+                    <source src="videos/Noire/LevelDesign_03.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="video-container">
+                <h4>Some VFX</h4>
+                <video controls muted>
+                    <source src="videos/Noire/Rampage.mp4" type="video/mp4">
+                </video>
+                <video controls muted>
+                    <source src="videos/Noire/ShieldVFX.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="video-container">
+                <h4>Splash Screen</h4>
+                <video controls muted>
+                    <source src="videos/Noire/SplashScreen_vfx.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="video-container">
+                <h4>Text VFX</h4>
+                <video controls muted>
+                    <source src="videos/Noire/Text_vfx.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="video-container">
+                <h4>UI Effects</h4>
+                <video controls muted>
+                    <source src="videos/Noire/UIVFX_01.mp4" type="video/mp4">
+                </video>
+                <video controls muted>
+                    <source src="videos/Noire/UIVFX_02.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
     <script>
-        function showPopupContent() {
-            const popup = document.querySelector('.popup');
-            popup.classList.toggle('show-content');
-        }
+        // When "Cosmic Paradox: Noire" is clicked, show the corresponding videos
+        document.querySelector('.popup').addEventListener('click', function() {
+            document.getElementById('cosmic-paradox').classList.add('active');
+        });
     </script>
 
 </body>
