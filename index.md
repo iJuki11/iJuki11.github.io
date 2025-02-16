@@ -52,6 +52,13 @@
             left: 0;
         }
 
+        /* Hover Animation for Shipped Projects */
+        .category:hover {
+            font-size: 28px; /* Increase font size on hover */
+            transform: scale(1.1);
+            transition: all 0.3s ease;
+        }
+
         /* Dropdown Menu */
         .dropdown {
             position: absolute;
@@ -105,16 +112,32 @@
             font-size: 28px;
         }
 
-        .category:hover::after {
-            width: 100%;
-            background-color: rgba(75, 114, 180, 1); /* Thicker line when hovered */
-        }
-
         /* Style for VFX Reel */
         .project iframe, .project video {
             width: 500px;
             height: 300px;
             margin-top: 50px;
+        }
+
+        /* Popup for Shipped Projects */
+        .popup {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: black;
+            padding: 20px;
+            color: white;
+            font-size: 18px;
+            border-radius: 5px;
+            width: 200px;
+            text-align: center;
+            z-index: 10;
+        }
+
+        .category:hover .popup {
+            display: block;
         }
 
     </style>
@@ -125,18 +148,15 @@
     <div class="categories">
         <div class="category">
             VFX Reel
-            <div class="dropdown">
-                <button onclick="showProject('project1')">VFX Reel</button>
-                <button onclick="showProject('project2')">Explosion</button>
-                <button onclick="showProject('project3')">Meteor</button>
-            </div>
         </div>
 
         <div class="category">
             Shipped Projects
-            <div class="dropdown">
-                <button onclick="showProject('project4')">Illustration</button>
-                <button onclick="showProject('project5')">Character Design</button>
+            <!-- Pop-up window with project names -->
+            <div class="popup">
+                <p><strong>Cosmic Paradox: Noire</strong></p>
+                <p><strong>Magnitude / Magnitude Epsilon</strong></p>
+                <p><strong>Puzzle Piecer: The World Below</strong></p>
             </div>
         </div>
     </div>
