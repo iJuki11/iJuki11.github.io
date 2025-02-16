@@ -23,12 +23,14 @@
             font-size: 24px;
             margin-top: 50px;
             font-weight: bold;
+            position: relative;
         }
 
         .category {
             position: relative;
             cursor: pointer;
             padding-bottom: 5px;
+            display: inline-block;
         }
 
         .category::after {
@@ -38,20 +40,37 @@
             height: 2px;
             background-color: white;
             margin-top: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .category:hover::after {
+            width: 100%;
+            height: 4px;
+            background-color: rgba(75, 114, 180, 1);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        /* Hover Animation for Shipped Projects */
+        .category:hover {
+            font-size: 28px; /* Increase font size on hover */
+            transform: scale(1.1);
+            transition: all 0.3s ease;
         }
 
         /* Dropdown Menu */
         .dropdown {
             position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            top: 100%;
+            left: 100%;
+            top: 0;
             display: none;
             background-color: rgba(75, 114, 180, 0.9);
             padding: 10px;
             border-radius: 5px;
-            width: 150px;
+            width: 200px;
             text-align: left;
+            margin-top: 10px;
         }
 
         .category:hover .dropdown {
@@ -77,14 +96,50 @@
         /* Project Sections */
         .project {
             display: none;
-            margin-top: 20px;
+            margin-top: 50px;
             text-align: left;
             padding-left: 50px;
+            padding-right: 50px;
         }
 
         .active {
             display: block;
         }
+
+        /* Fine line for categories */
+        .category {
+            padding-bottom: 10px;
+            font-size: 28px;
+        }
+
+        /* Style for VFX Reel */
+        .project iframe, .project video {
+            width: 500px;
+            height: 300px;
+            margin-top: 50px;
+        }
+
+        /* Popup for Shipped Projects */
+        .popup {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: black;
+            padding: 20px;
+            color: white;
+            font-size: 18px;
+            border-radius: 5px;
+            width: 200px;
+            text-align: center;
+            z-index: 10;
+        }
+
+        .category:hover .popup {
+            display: block;
+        }
+
     </style>
 </head>
 <body>
@@ -92,19 +147,16 @@
     <!-- Category Navigation -->
     <div class="categories">
         <div class="category">
-            VFX
-            <div class="dropdown">
-                <button onclick="showProject('project1')">VFX Reel</button>
-                <button onclick="showProject('project2')">Explosion</button>
-                <button onclick="showProject('project3')">Meteor</button>
-            </div>
+            VFX Reel
         </div>
 
         <div class="category">
-            2D Art
-            <div class="dropdown">
-                <button onclick="showProject('project4')">Illustration</button>
-                <button onclick="showProject('project5')">Character Design</button>
+            Shipped Projects
+            <!-- Pop-up window with project names -->
+            <div class="popup">
+                <p><strong>Cosmic Paradox: Noire</strong></p>
+                <p><strong>Magnitude / Magnitude Epsilon</strong></p>
+                <p><strong>Puzzle Piecer: The World Below</strong></p>
             </div>
         </div>
     </div>
