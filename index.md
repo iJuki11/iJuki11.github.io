@@ -296,6 +296,9 @@
   <!-- Magnitude Section -->
   <div id="magnitude" class="project">
     <h2>Magnitude</h2>
+    <ul>
+      <li><strong>VFX:</strong> Vfx and whole art</li>
+      <li><strong>Visual Identity:</strong> Developed the game’s overall visual identity, ensuring consistency across all visual elements</li>
     <div class="video-container">
       <video controls muted>
         <source src="videos/Magnitude/Shield.mp4" type="video/mp4">
