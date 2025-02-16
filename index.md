@@ -112,7 +112,7 @@
     <!-- Project Sections -->
     <div id="project1" class="project active">
         <h2>VFX Reel</h2>
-        <video width="500" height="300" controls>
+        <video width="500" height="300" controls muted>
             <source src="videos/FxReel.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -120,7 +120,7 @@
 
     <div id="project2" class="project">
         <h2>Explosion</h2>
-        <video width="500" height="300" controls>
+        <video width="500" height="300" controls muted>
             <source src="videos/Explosion.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -128,7 +128,7 @@
 
     <div id="project3" class="project">
         <h2>Meteor</h2>
-        <video width="500" height="300" controls>
+        <video width="500" height="300" controls muted>
             <source src="videos/Meteor.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
