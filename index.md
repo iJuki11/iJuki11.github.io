@@ -69,7 +69,7 @@
             left: 100%;
             top: 0;
             display: none;
-            background-color: rgba(75, 114, 180, 0.9);
+            background-color: #4b72b4;
             padding: 10px;
             border-radius: 5px;
             width: 200px;
