@@ -1,5 +1,6 @@
 title: Ivan Jurić # your name (or website title) here
 logo: "/images/logo.png?raw=true"
+description: > # your text below (remove <br> elements if you don't need line breaks)
 <br><br>
   <b>SKILLS</b>
   <br>
@@ -42,6 +43,7 @@ VFX
   <br>
   iv.juric95@gmail.com
   <br><br>  
+  
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
