@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,83 +11,113 @@
             background-size: cover;
             font-family: Arial, sans-serif;
             text-align: center;
-        }
-        .profile {
-            margin-top: 20px;
-        }
-        .profile img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            border: 2px solid white;
-        }
-        .nav {
-            margin-top: 20px;
-        }
-        .nav button {
-            background-color: #4b72b4;
             color: white;
+        }
+        .category {
+            margin-top: 50px;
+            font-size: 24px;
+            cursor: pointer;
+            background-color: #4b72b4;
+            padding: 15px;
+            width: 200px;
+            margin: 10px auto;
+            border-radius: 10px;
+        }
+        .category:hover {
+            background-color: #345a8a;
+        }
+        .dropdown {
+            display: none;
+            background-color: #4b72b4;
             padding: 10px;
-            margin: 5px;
+            border-radius: 10px;
+            width: 200px;
+            margin: 0 auto;
+        }
+        .dropdown button {
+            background-color: transparent;
+            color: white;
             border: none;
             cursor: pointer;
             font-size: 18px;
+            display: block;
+            width: 100%;
+            text-align: left;
+            padding: 8px 0;
         }
-        .nav button:hover {
-            background-color: #345a8a;
+        .dropdown button:hover {
+            text-decoration: underline;
         }
         .project {
-            display: none; /* Hide all projects initially */
+            display: none;
             margin-top: 20px;
         }
         .active {
-            display: block; /* Show the active project */
+            display: block;
         }
     </style>
 </head>
 <body>
 
-    <!-- Profile Section -->
-    <div class="profile">
-        <h1>My Name</h1>
-        <img src="images/profile.jpg" alt="Profile Picture">
+    <!-- Dropdown Menus -->
+    <div class="category" onclick="toggleDropdown('vfxMenu')">VFX</div>
+    <div id="vfxMenu" class="dropdown">
+        <button onclick="showProject('project1')">Sword Slash</button>
+        <button onclick="showProject('project2')">Explosion</button>
+        <button onclick="showProject('project3')">Meteor</button>
     </div>
 
-    <!-- Navigation Buttons -->
-    <div class="nav">
-        <button onclick="showProject('project1')">Project One</button>
-        <button onclick="showProject('project2')">Project Two</button>
-        <button onclick="showProject('project3')">Project Three</button>
+    <div class="category" onclick="toggleDropdown('artMenu')">2D Art</div>
+    <div id="artMenu" class="dropdown">
+        <button onclick="showProject('project4')">Illustration</button>
+        <button onclick="showProject('project5')">Character Design</button>
     </div>
 
     <!-- Project Sections -->
     <div id="project1" class="project active">
-        <h2>Project One</h2>
-        <img src="images/project1-1.jpg" width="400">
-        <img src="images/project1-2.jpg" width="400">
+        <h2>Sword Slash</h2>
+        <video width="500" height="300" controls>
+            <source src="videos/SwordSlash.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
 
     <div id="project2" class="project">
-        <h2>Project Two</h2>
-        <img src="images/project2-1.jpg" width="400">
-        <img src="images/project2-2.jpg" width="400">
+        <h2>Explosion</h2>
+        <video width="500" height="300" controls>
+            <source src="videos/Explosion.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
 
     <div id="project3" class="project">
-        <h2>Project Three</h2>
-        <img src="images/project3-1.jpg" width="400">
-        <img src="images/project3-2.jpg" width="400">
+        <h2>Meteor</h2>
+        <video width="500" height="300" controls>
+            <source src="videos/Meteor.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div id="project4" class="project">
+        <h2>Illustration</h2>
+        <img src="images/illustration.jpg" width="400">
+    </div>
+
+    <div id="project5" class="project">
+        <h2>Character Design</h2>
+        <img src="images/character.jpg" width="400">
     </div>
 
     <script>
-        function showProject(projectId) {
-            // Hide all projects
-            let projects = document.querySelectorAll('.project');
-            projects.forEach(project => {
-                project.classList.remove('active');
-            });
+        function toggleDropdown(menuId) {
+            let menu = document.getElementById(menuId);
+            menu.style.display = (menu.style.display === "block") ? "none" : "block";
+        }
 
-            // Show the selected project
+        function showProject(projectId) {
+            let projects = document.querySelectorAll('.project');
+            projects.forEach(project => project.classList.remove('active'));
+
             document.getElementById(projectId).classList.add('active');
         }
     </script>
