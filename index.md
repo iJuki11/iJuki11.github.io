@@ -328,23 +328,23 @@
     <h2>2D Art</h2>
     <div class="video-container">
       <img src="videos/PuzzlePiecer/Ship.png" alt="Ship" width="500">
-      <h5 class="video-title-centered">Ship</h5>
+      <h5 class="video-title-centered"></h5>
     </div>
     <div class="video-container">
       <img src="videos/PuzzlePiecer/Treasure.png" alt="Treasure" width="500">
-      <h5 class="video-title-centered">Treasure</h5>
+      <h5 class="video-title-centered"></h5>
     </div>
     <div class="video-container">
       <img src="videos/PuzzlePiecer/WreckedShip.png" alt="Wrecked Ship" width="500">
-      <h5 class="video-title-centered">Wrecked Ship</h5>
+      <h5 class="video-title-centered"></h5>
     </div>
     <div class="video-container">
       <img src="videos/PuzzlePiecer/Guys.png" alt="Guys" width="500">
-      <h5 class="video-title-centered">Guys</h5>
+      <h5 class="video-title-centered"></h5>
     </div>
     <div class="video-container">
       <img src="videos/PuzzlePiecer/02_this.png" alt="02_this" width="500">
-      <h5 class="video-title-centered">02_this</h5>
+      <h5 class="video-title-centered"></h5>
     </div>
   </div>
 
