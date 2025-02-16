@@ -78,6 +78,8 @@
         .project {
             display: none;
             margin-top: 20px;
+            text-align: left;
+            padding-left: 50px;
         }
 
         .active {
@@ -92,7 +94,7 @@
         <div class="category">
             VFX
             <div class="dropdown">
-                <button onclick="showProject('project1')">Sword Slash</button>
+                <button onclick="showProject('project1')">VFX Reel</button>
                 <button onclick="showProject('project2')">Explosion</button>
                 <button onclick="showProject('project3')">Meteor</button>
             </div>
@@ -109,9 +111,9 @@
 
     <!-- Project Sections -->
     <div id="project1" class="project active">
-        <h2>Sword Slash</h2>
+        <h2>VFX Reel</h2>
         <video width="500" height="300" controls>
-            <source src="videos/SwordSlash.mp4" type="video/mp4">
+            <source src="videos/FxReel.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
