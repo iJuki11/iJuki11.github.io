@@ -13,7 +13,7 @@
             background-size: cover;
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color 0.3s, color 0.3s;
+            background-color 0.8s, color 0.8s;
         }
 
         /* Category Section */
