@@ -12,7 +12,7 @@
       background-size: cover;
       font-family: Arial, sans-serif;
       text-align: center;
-      /* transition properties here don't set colors */
+      background-color 1s, color 1s;
       color: #000000;
     }
 
@@ -35,7 +35,6 @@
       display: inline-block;
       padding: 10px 20px;
       transition: background-color 0.3s, color 0.3s;
-      color: white;  /* default category text color */
     }
 
     /* Hover Animation for all Categories */
@@ -83,17 +82,20 @@
       display: block;
     }
 
-    .dropdown p {
-      font-size: 20px;
-      margin: 10px 0;
-      transition: all 0.3s ease;
-      color: white; /* default popup text color */
+    .dropdown button {
+      background-color: transparent;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 8px 0;
     }
 
-    .dropdown p:hover {
-      font-size: 24px;
-      color: gold;
-      transform: scale(1.1);
+    .dropdown button:hover {
+      text-decoration: underline;
     }
 
     /* Project Sections */
@@ -109,7 +111,13 @@
       display: block;
     }
 
-    /* Style for VFX Reel and other video sections */
+    /* Fine line for categories */
+    .category {
+      padding-bottom: 10px;
+      font-size: 28px;
+    }
+
+    /* Style for VFX Reel */
     .project iframe, .project video {
       width: 500px;
       height: 300px;
@@ -149,14 +157,50 @@
       font-size: 15px;
       text-align: center;
     }
+
+    /* Blue popup style */
+    .popup {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #4b72b4;
+      padding: 20px;
+      color: white;
+      font-size: 18px;
+      border-radius: 5px;
+      width: 200px;
+      text-align: center;
+      z-index: 10;
+    }
+
+    .category:hover .popup {
+      display: block;
+    }
+
+    /* Hover Effect for Projects in Pop-up */
+    .popup p {
+      font-size: 20px;
+      margin: 10px 0;
+      transition: all 0.3s ease;
+    }
+
+    .popup p:hover {
+      font-size: 24px;
+      color: gold;
+      transform: scale(1.1);
+    }
   </style>
 </head>
 <body>
+
   <!-- Category Navigation -->
   <div class="categories">
     <div class="category" id="vfx-reel">
       <span>VFX Reel</span>
     </div>
+
     <div class="category">
       <span>Shipped Projects</span>
       <!-- Pop-up window with project names -->
@@ -171,6 +215,7 @@
   <!-- Project Sections -->
   <!-- VFX Reel Section (Default) -->
   <div id="vfx-reel-project" class="project active">
+    <br><br><br><br><br><br>
     <h2>VFX Reel</h2>
     <video width="500" height="300" controls muted>
       <source src="videos/FxReel.mp4" type="video/mp4">
@@ -182,10 +227,11 @@
   <div id="cosmic-paradox" class="project">
     <h1>Cosmic Paradox: Noire</h1>
     <ul>
-      <li><strong>VFX:</strong> Created UI effects and the majority of in-game visual effects</li>
-      <li><strong>Background Design:</strong> Designed and developed backgrounds</li>
-      <li><strong>Optimization:</strong> Collaborated with programmers to optimize performance and resolve graphic issues for PC and PlayStation ports</li>
-      <li><strong>Visual Identity:</strong> Developed the game’s overall visual identity, ensuring consistency across all visual elements</li>
+    <strong>
+      <li>VFX: Created UI effects and the majority of in-game visual effects</li>
+      <li>Background Design: Designed and developed backgrounds</li>
+      <li>Optimization: Collaborated with programmers to optimize performance and resolve graphic issues for PC and PlayStation ports</li>
+      <li>Visual Identity: Developed the game’s overall visual identity, ensuring consistency across all visual elements</strong></li>
       <br><br><br>
     </ul>
     <h2>Level Backgrounds</h2>
@@ -232,12 +278,14 @@
       </video>
       <h5 class="video-title-centered">UI fx(02)</h5>
     </div>
+    <br><br>
     <h2>Splash Screen</h2>
     <div class="video-container">
       <video controls muted>
         <source src="videos/Noire/SplashScreen_vfx.mp4" type="video/mp4">
       </video>
     </div>
+    <br><br>
     <h2>Text Transition</h2>
     <div class="video-container">
       <video controls muted>
@@ -248,6 +296,10 @@
 
   <!-- Magnitude Section -->
   <div id="magnitude" class="project">
+  <ul>
+      <strong><li>I managed all art-related aspects of the game, from concept development and environment design to VFX, and overall visual identity.</li></strong>
+      <br><br><br>
+    </ul>
     <h2>Magnitude</h2>
     <div class="video-container">
       <video controls muted>
@@ -262,10 +314,13 @@
       <h5 class="video-title-centered">Background</h5>
     </div>
   </div>
-
-  <!-- Puzzle Piecer Section -->
+<!-- Puzzle Piecer Section -->
   <div id="puzzle-piecer" class="project">
-    <h2>Puzzle Piecer</h2>
+    <h1>Puzzle Piecer</h1>
+    <ul>
+      <strong><li>I contributed to the game's puzzle art and handled all VFX, ensuring engaging visuals and smooth integration within the gameplay.</li></strong>
+      <br><br><br>
+    </ul>
     <video width="500" height="300" controls muted>
       <source src="videos/PuzzlePiecer/PuzzlePiecer.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -294,7 +349,7 @@
   </div>
 
   <script>
-    // When clicking on VFX Reel: Show only VFX Reel section.
+    // When clicking on VFX Reel, show only the VFX Reel project.
     document.getElementById('vfx-reel').addEventListener('click', function() {
       document.getElementById('vfx-reel-project').classList.add('active');
       document.getElementById('cosmic-paradox').classList.remove('active');
@@ -302,7 +357,7 @@
       document.getElementById('puzzle-piecer').classList.remove('active');
     });
 
-    // When clicking on Cosmic Paradox: Show only Cosmic Paradox section.
+    // When clicking on Cosmic Paradox, show only the Cosmic Paradox project.
     document.getElementById('cosmic-paradox-link').addEventListener('click', function() {
       document.getElementById('vfx-reel-project').classList.remove('active');
       document.getElementById('cosmic-paradox').classList.add('active');
@@ -310,7 +365,7 @@
       document.getElementById('puzzle-piecer').classList.remove('active');
     });
 
-    // When clicking on Magnitude: Show only Magnitude section.
+    // When clicking on Magnitude, show only the Magnitude project.
     document.getElementById('magnitude-link').addEventListener('click', function() {
       document.getElementById('vfx-reel-project').classList.remove('active');
       document.getElementById('cosmic-paradox').classList.remove('active');
@@ -318,7 +373,7 @@
       document.getElementById('puzzle-piecer').classList.remove('active');
     });
 
-    // When clicking on Puzzle Piecer: Show only Puzzle Piecer section.
+    // When clicking on Puzzle Piecer, show only the Puzzle Piecer project.
     document.getElementById('puzzle-piecer-link').addEventListener('click', function() {
       document.getElementById('vfx-reel-project').classList.remove('active');
       document.getElementById('cosmic-paradox').classList.remove('active');
