@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <style>
+        /* Background and text styling */
         body {
             background-image: url('images/cowboy2.jpg');
             background-repeat: no-repeat;
@@ -26,11 +27,23 @@
             position: relative;
         }
 
+        /* Category Base Style */
         .category {
             position: relative;
             cursor: pointer;
-            padding-bottom: 5px;
-            display: inline-block;
+            padding: 10px 20px; /* Add some padding for better hover effect */
+            transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and color */
+        }
+
+        /* When hovering on the category container */
+        .category:hover {
+            background-color: white;
+            color: black;
+        }
+
+        /* When hovering over the text itself */
+        .category:hover span {
+            color: gold; /* Gold color on hover */
         }
 
         .category::after {
@@ -59,38 +72,9 @@
             transition: all 0.3s ease;
         }
 
-        /* Dropdown Menu */
-        .dropdown {
-            position: absolute;
-            left: 100%;
-            top: 0;
-            display: none;
-            background-color: rgba(75, 114, 180, 0.9);
-            padding: 10px;
-            border-radius: 5px;
-            width: 200px;
-            text-align: left;
-            margin-top: 10px;
-        }
-
-        .category:hover .dropdown {
-            display: block;
-        }
-
-        .dropdown button {
-            background-color: transparent;
-            color: white;
-            border: none;
-            cursor: pointer;
-            font-size: 18px;
-            display: block;
-            width: 100%;
-            text-align: left;
-            padding: 8px 0;
-        }
-
-        .dropdown button:hover {
-            text-decoration: underline;
+        /* For the text to change color */
+        .category span {
+            transition: color 0.3s ease; /* Add smooth transition for text color */
         }
 
         /* Project Sections */
@@ -106,42 +90,65 @@
             display: block;
         }
 
-        /* Fine line for categories */
-        .category {
-            padding-bottom: 10px;
+        /* Title for Cosmic Paradox: Noire */
+        #project1 h2 {
+            font-size: 36px;
+            text-align: left;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        /* Content section for Backgrounds, VFX, etc. */
+        .content-section {
+            margin-top: 30px;
+            text-align: left;
+            padding-left: 50px;
+        }
+
+        /* Subtitle styles for Backgrounds, VFX, SplashScreen, etc. */
+        .subsection {
+            margin-bottom: 40px;
+        }
+
+        /* Section Titles (Backgrounds, VFX, etc.) */
+        .section-title {
             font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 15px;
         }
 
-        /* Style for VFX Reel */
-        .project iframe, .project video {
-            width: 500px;
-            height: 300px;
-            margin-top: 50px;
+        /* Bullet list for the videos */
+        ul {
+            list-style: none;
+            padding-left: 0;
         }
 
-        /* Style for the videos and text */
-        .videos {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+        ul li {
+            font-size: 18px;
+            margin: 5px 0;
         }
 
-        .videos h4 {
-            width: 100%;
-            text-align: left;
-            font-size: 30px;
-            margin-left: 20px;
+        .bullet {
+            font-size: 24px;
+            margin-right: 10px;
         }
 
-        .videos h5 {
-            width: 100%;
-            text-align: left;
-            font-size: 22px;
-            margin-left: 20px;
-        }
-
+        /* Video Container */
         .video-container {
-            margin: 20px;
+            margin-top: 20px;
+        }
+
+        .video-container h4 {
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        /* Make video controls and styling look consistent */
+        video {
+            display: block;
+            margin: 0 auto;
+            border-radius: 5px;
         }
 
         /* Blue popup style */
@@ -164,7 +171,6 @@
         .category:hover .popup {
             display: block;
         }
-
     </style>
 </head>
 <body>
@@ -172,11 +178,11 @@
     <!-- Category Navigation -->
     <div class="categories">
         <div class="category">
-            VFX Reel
+            <span>VFX Reel</span>
         </div>
 
         <div class="category">
-            Shipped Projects
+            <span>Shipped Projects</span>
             <!-- Pop-up window with project names -->
             <div class="popup">
                 <p><strong>Cosmic Paradox: Noire</strong></p>
@@ -186,119 +192,119 @@
         </div>
     </div>
 
-    <!-- Project Sections -->
+    <!-- Cosmic Paradox Section -->
     <div id="project1" class="project active">
-        <h2>VFX Reel</h2>
-        <video width="500" height="300" controls muted>
-            <source src="videos/FxReel.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-
-    <div id="project2" class="project">
-        <h2>Explosion</h2>
-        <video width="500" height="300" controls muted>
-            <source src="videos/Explosion.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-
-    <div id="project3" class="project">
-        <h2>Meteor</h2>
-        <video width="500" height="300" controls muted>
-            <source src="videos/Meteor.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-
-    <div id="project4" class="project">
-        <h2>Illustration</h2>
-        <img src="images/illustration.jpg" width="400">
-    </div>
-
-    <div id="project5" class="project">
-        <h2>Character Design</h2>
-        <img src="images/character.jpg" width="400">
-    </div>
-
-    <!-- Cosmic Paradox Section (Hidden by default) -->
-    <div id="cosmic-paradox" class="project">
         <h2>Cosmic Paradox: Noire</h2>
-        <div class="videos">
-            <!-- Backgrounds -->
-            <h4>Backgrounds</h4>
-            <div class="video-container">
-                <h5>First Level Design</h5>
-                <video controls muted>
-                    <source src="videos/Noire/LevelDesign_01.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="video-container">
-                <h5>Second Level Design</h5>
-                <video controls muted>
-                    <source src="videos/Noire/LevelDesign_02.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="video-container">
-                <h5>Third Level Design</h5>
-                <video controls muted>
-                    <source src="videos/Noire/LevelDesign_03.mp4" type="video/mp4">
-                </video>
+        
+        <div class="content-section">
+            <div class="subsection">
+                <h3 class="section-title">Backgrounds</h3>
+                <ul>
+                    <li><span class="bullet">•</span> Level Design 1</li>
+                    <li><span class="bullet">•</span> Level Design 2</li>
+                    <li><span class="bullet">•</span> Level Design 3</li>
+                </ul>
+
+                <div class="video-container">
+                    <h4>Level Design 1</h4>
+                    <video controls width="500">
+                        <source src="videos/Noire/BackGroundMissionRecapDesign.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="video-container">
+                    <h4>Level Design 2</h4>
+                    <video controls width="500">
+                        <source src="videos/Noire/LevelDesign_01.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="video-container">
+                    <h4>Level Design 3</h4>
+                    <video controls width="500">
+                        <source src="videos/Noire/LevelDesign_02.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
 
-            <!-- VFX -->
-            <h4>VFX</h4>
-            <div class="video-container">
-                <h5>Rampage VFX</h5>
-                <video controls muted>
-                    <source src="videos/Noire/Rampage.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="video-container">
-                <h5>Shield VFX</h5>
-                <video controls muted>
-                    <source src="videos/Noire/ShieldVFX.mp4" type="video/mp4">
-                </video>
+            <div class="subsection">
+                <h3 class="section-title">VFX</h3>
+                <ul>
+                    <li><span class="bullet">•</span> Rampage VFX</li>
+                    <li><span class="bullet">•</span> Shield VFX</li>
+                </ul>
+
+                <div class="video-container">
+                    <h4>Rampage VFX</h4>
+                    <video controls width="500">
+                        <source src="videos/Noire/Rampage.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="video-container">
+                    <h4>Shield VFX</h4>
+                    <video controls width="500">
+                        <source src="videos/Noire/ShieldVFX.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
 
-            <!-- Splash Screen -->
-            <h4>Splash Screen</h4>
-            <div class="video-container">
-                <video controls muted>
-                    <source src="videos/Noire/SplashScreen_vfx.mp4" type="video/mp4">
-                </video>
+            <div class="subsection">
+                <h3 class="section-title">Splash Screen</h3>
+                <ul>
+                    <li><span class="bullet">•</span> Splash Screen VFX</li>
+                </ul>
+
+                <div class="video-container">
+                    <h4>Splash Screen VFX</h4>
+                    <video controls width="500">
+                        <source src="videos/Noire/SplashScreen_vfx.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
 
-            <!-- Text VFX -->
-            <h4>Text VFX</h4>
-            <div class="video-container">
-                <video controls muted>
-                    <source src="videos/Noire/Text_vfx.mp4" type="video/mp4">
-                </video>
+            <div class="subsection">
+                <h3 class="section-title">Text VFX</h3>
+                <ul>
+                    <li><span class="bullet">•</span> Text VFX</li>
+                </ul>
+
+                <div class="video-container">
+                    <h4>Text VFX</h4>
+                    <video controls width="500">
+                        <source src="videos/Noire/Text_vfx.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
 
-            <!-- UI Effects -->
-            <h4>UI Effects</h4>
-            <div class="video-container">
-                <video controls muted>
-                    <source src="videos/Noire/UIVFX_01.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="video-container">
-                <video controls muted>
-                    <source src="videos/Noire/UIVFX_02.mp4" type="video/mp4">
-                </video>
+            <div class="subsection">
+                <h3 class="section-title">UI Effects</h3>
+                <ul>
+                    <li><span class="bullet">•</span> UI VFX 1</li>
+                    <li><span class="bullet">•</span> UI VFX 2</li>
+                </ul>
+
+                <div class="video-container">
+                    <h4>UI VFX 1</h4>
+                    <video controls width="500">
+                        <source src="videos/Noire/UIVFX_01.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="video-container">
+                    <h4>UI VFX 2</h4>
+                    <video controls width="500">
+                        <source src="videos/Noire/UIVFX_02.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
         </div>
     </div>
-
-    <script>
-        // When "Cosmic Paradox: Noire" is clicked, show the corresponding videos and remove the VFX Reel
-        document.querySelector('.popup').addEventListener('click', function() {
-            document.getElementById('cosmic-paradox').classList.add('active');
-            document.getElementById('project1').classList.remove('active');
-        });
-    </script>
 
 </body>
 </html>
