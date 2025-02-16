@@ -42,7 +42,7 @@
         .category:hover {
             font-size: 28px;
             transform: scale(1.1);
-            color: gold;
+            color: rgba(0, 0, 0, 0.8);
             transition: all 0.3s ease;
         }
 
