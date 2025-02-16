@@ -230,7 +230,7 @@
     <div id="cosmic-paradox" class="project">
         <h1>Cosmic Paradox: Noire</h1>
         <ul>
-    <li><strong>VFX:</strong> Created UI effects and the majority of in-game visual effects</li>
+    <li>VFX:Created UI effects and the majority of in-game visual effects</li>
     <li><strong>Background Design:</strong> Designed and developed backgrounds</li>
     <li><strong>Optimization:</strong> Collaborated with programmers to optimize performance and resolve graphic issues for PC and PlayStation ports</li>
     <li><strong>Visual Identity:</strong> Developed the game’s overall visual identity, ensuring consistency across all visual elements</li>
