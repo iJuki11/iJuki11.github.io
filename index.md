@@ -296,6 +296,7 @@
 
   <!-- Magnitude Section -->
   <div id="magnitude" class="project">
+    <h1>Magnitude</h1>
   <ul>
       <strong><li>I managed all art-related aspects of the game, from concept development and environment design to VFX, and overall visual identity.</li></strong>
     </ul>
