@@ -1,18 +1,57 @@
 title: Ivan Jurić # your name (or website title) here
 logo: # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
+  Second description 
+  <br><br>
+  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
   <br><br>
   <b>SKILLS</b>
   <br>
   VFX
+  <br>
   C#
+  <br>
   2D art
-  hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
+  <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
   <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
   
+   <b>Shipped Titles</b>
+   <br>
+   <br>
+   <a href="https://store.playstation.com/en-hr/product/EP7345-PPSA20372_00-0018074913236815">Cosmic Paradox</a>
+   <br>
+   <a href="https://store.playstation.com/en-hr/product/EP7345-PPSA26549_00-0349027590004907">Magnitude</a>
+   <br>
+   <a href="https://store.playstation.com/en-hr/product/EP7345-PPSA20372_00-0018074913236815">Cosmic Paradox</a>
+   <br>
+
+   <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
+ 
+  <b>TOOLS</b>
+  <br>
+  Adobe Photoshop
+  <br>
+  Procreate
+  <br>
+  Blender
+  <br>
+  Substance Designer
+  <br>
+  Unity
+  <br>
+  Unreal Engine
+  <br>
+  EmberGen
+  <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
+  <br><br>
+  <b>DETAILS</b>
+  <br>
+  Zagreb,Croatia
+  <br>
+  +385 95 896 5148
+  <br>
+  iv.juric95@gmail.com
+  <br><br>
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
