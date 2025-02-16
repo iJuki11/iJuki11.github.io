@@ -1,52 +1,47 @@
-title: Ivan Jurić # your name (or website title) here
-  <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
-<b>ABOUT</b>
-  <br>
- <br>
-   <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
-  <b>SKILLS</b>
-  <br>
-VFX
-  <br>
-  C#
-   <br>
-   Shader graph
-   <br>
-   HLSL
-   <br>
-   2D art
-  <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
-  
-  
-
-   <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
- 
-  <b>TOOLS</b>
-  <br>
-  Adobe Photoshop
-  <br>
-  Krita
-  <br>
-  Procreate
-  <br>
-  Blender
-  <br>
-  Substance Designer
-  <br>
-  Unity
-  <br>
-  Unreal Engine
-  <br>
-  EmberGen
-  <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
-  <b>DETAILS</b>
-  <br>
-  Zagreb,Croatia
-  <br>
-  +385 95 896 5148
-  <br>
-  iv.juric95@gmail.com
-  <br><be>
-
-
+title: "Ivan Jurić"
+description: "Portfolio of Ivan Jurić, a VFX Artist specializing in Unreal Engine and Unity."
+author: "Ivan Jurić"
 theme: jekyll-theme-minimal
+
+# Navigation settings (if needed)
+baseurl: "" 
+url: "https://iJuki11.github.io"
+
+# Contact details
+details:
+  location: "Zagreb, Croatia"
+  phone: "+385 95 896 5148"
+  email: "iv.juric95@gmail.com"
+
+# Skills
+skills:
+  - VFX
+  - C#
+  - Shader Graph
+  - HLSL
+  - 2D Art
+
+# Shipped Titles
+shipped_titles:
+  - name: "Cosmic Paradox: Noire"
+    link: "https://store.playstation.com/en-hr/product/EP7345-PPSA20372_00-0018074913236815"
+  - name: "Magnitude"
+    link: "https://store.playstation.com/en-hr/product/EP7345-PPSA26549_00-0349027590004907"
+  - name: "Magnitude: Epsilon"
+    link: "https://store.playstation.com/en-hr/product/EP7345-PPSA27913_00-0818032948658132"
+  - name: "Puzzle Piecer: The World Below"
+    link: "https://store.playstation.com/en-hr/product/EP7345-PPSA28264_00-0540415989288772"
+
+# Tools
+tools:
+  - Adobe Photoshop
+  - Krita
+  - Procreate
+  - Blender
+  - Substance Designer
+  - Unity
+  - Unreal Engine
+  - EmberGen
+
+github:
+  is_project_page: true
