@@ -1,16 +1,30 @@
 title: Ivan Jurić # your name (or website title) here
-logo: "/images/profilepic.jpeg?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
- A passionate artist and coder
-  <br><br>
- 
+  <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
+<b>ABOUT</b>
+  <br>
+ I primarily work as a VFX Artist, creating visual effects in Unreal Engine and Unity. While my main focus is VFX, I also have experience with C#, HLSL, 2D art, and animation to a certain extent. In Unity, I handle both VFX and programming, leveraging my technical understanding to optimize and implement effects efficiently. I enjoy combining art and tech to bring dynamic visuals to life!
+   <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
   <b>SKILLS</b>
   <br>
-  Digital art
+VFX
   <br>
   C#
+   <br>
+   2D art
   <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
-  <br><br>
+  
+   <b>Shipped Titles</b>
+   <br>
+   <a href="https://store.playstation.com/en-hr/product/EP7345-PPSA20372_00-0018074913236815">Cosmic Paradox: Noire</a>
+   <br>
+   <a href="https://store.playstation.com/en-hr/product/EP7345-PPSA26549_00-0349027590004907">Magnitude</a>
+   <br>
+   <a href="https://store.playstation.com/en-hr/product/EP7345-PPSA27913_00-0818032948658132">Magnitude: Epsilon</a>
+   <br>
+      <a href="https://store.playstation.com/en-hr/product/EP7345-PPSA28264_00-0540415989288772">Puzzle Piecer: The World Below</a>
+   <br>
+
+   <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
  
   <b>TOOLS</b>
   <br>
@@ -28,16 +42,6 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
   EmberGen
   <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
-  <br><br>
-   <b>INTERESTED IN</b>
-  <br>
-  Real time VFX
-  <br>
-  Prop art
-  <br>
-  Coding
-  <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
-  <br><br>
   <b>DETAILS</b>
   <br>
   Zagreb,Croatia
@@ -47,4 +51,3 @@ description: > # your text below (remove <br> elements if you don't need line br
   iv.juric95@gmail.com
   <br><br>
   
-theme: jekyll-theme-minimal
