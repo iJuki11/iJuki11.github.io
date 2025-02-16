@@ -126,7 +126,7 @@
             top: 100%;
             left: 50%;
             transform: translateX(-50%);
-            background-color: black;
+            background-color: rgba(0, 0, 255, 0.9); /* Changed to blue */
             padding: 20px;
             color: white;
             font-size: 18px;
@@ -138,6 +138,24 @@
 
         .category:hover .popup {
             display: block;
+        }
+
+        /* Pop-up content for Cosmic Paradox */
+        .popup-content {
+            display: none;
+            padding-top: 20px;
+        }
+
+        .show-content .popup-content {
+            display: block;
+        }
+
+        .popup-content h4 {
+            margin-bottom: 10px;
+        }
+
+        .popup-content video {
+            margin: 5px 0;
         }
 
     </style>
@@ -153,10 +171,52 @@
         <div class="category">
             Shipped Projects
             <!-- Pop-up window with project names -->
-            <div class="popup">
+            <div class="popup" onclick="showPopupContent()">
                 <p><strong>Cosmic Paradox: Noire</strong></p>
                 <p><strong>Magnitude / Magnitude Epsilon</strong></p>
                 <p><strong>Puzzle Piecer: The World Below</strong></p>
+                <!-- Pop-up content for Cosmic Paradox -->
+                <div class="popup-content">
+                    <h4>Backgrounds</h4>
+                    <video controls muted>
+                        <source src="videos/BackGroundMissionRecapDesign.mp4" type="video/mp4">
+                    </video>
+                    <video controls muted>
+                        <source src="videos/LevelDesign_01.mp4" type="video/mp4">
+                    </video>
+                    <video controls muted>
+                        <source src="videos/LevelDesign_02.mp4" type="video/mp4">
+                    </video>
+                    <video controls muted>
+                        <source src="videos/LevelDesign_03.mp4" type="video/mp4">
+                    </video>
+
+                    <h4>Some VFX</h4>
+                    <video controls muted>
+                        <source src="videos/Rampage.mp4" type="video/mp4">
+                    </video>
+                    <video controls muted>
+                        <source src="videos/ShieldVFX.mp4" type="video/mp4">
+                    </video>
+
+                    <h4>Splash Screen</h4>
+                    <video controls muted>
+                        <source src="videos/SplashScreen_vfx.mp4" type="video/mp4">
+                    </video>
+
+                    <h4>Text VFX</h4>
+                    <video controls muted>
+                        <source src="videos/Text_vfx.mp4" type="video/mp4">
+                    </video>
+
+                    <h4>UI Effects</h4>
+                    <video controls muted>
+                        <source src="videos/UIVFX_01.mp4" type="video/mp4">
+                    </video>
+                    <video controls muted>
+                        <source src="videos/UIVFX_02.mp4" type="video/mp4">
+                    </video>
+                </div>
             </div>
         </div>
     </div>
@@ -197,11 +257,9 @@
     </div>
 
     <script>
-        function showProject(projectId) {
-            let projects = document.querySelectorAll('.project');
-            projects.forEach(project => project.classList.remove('active'));
-
-            document.getElementById(projectId).classList.add('active');
+        function showPopupContent() {
+            const popup = document.querySelector('.popup');
+            popup.classList.toggle('show-content');
         }
     </script>
 
