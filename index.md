@@ -12,7 +12,7 @@
             background-size: cover;
             font-family: Arial, sans-serif;
             text-align: center;
-            color: white;
+            color: blue;
         }
 
         /* Category Section */
@@ -32,19 +32,16 @@
             cursor: pointer;
             padding-bottom: 5px;
             display: inline-block;
-            padding: 10px 20px; /* Add some padding for better hover effect */
-            transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and color */
+            padding: 10px 20px;
+            transition: background-color 0.3s, color 0.3s;
         }
 
-        /* When hovering on the category container */
+        /* Hover Animation for all Categories */
         .category:hover {
-            background-color: white;
-            color: black;
-        }
-
-        /* When hovering over the text itself */
-        .category:hover span {
-            color: gold; /* Gold color on hover */
+            font-size: 28px;
+            transform: scale(1.1);
+            color: gold;
+            transition: all 0.3s ease;
         }
 
         .category::after {
@@ -64,18 +61,6 @@
             position: absolute;
             bottom: 0;
             left: 0;
-        }
-
-        /* Hover Animation for Shipped Projects */
-        .category:hover {
-            font-size: 28px; /* Increase font size on hover */
-            transform: scale(1.1);
-            transition: all 0.3s ease;
-        }
-
-        /* For the text to change color */
-        .category span {
-            transition: color 0.3s ease; /* Add smooth transition for text color */
         }
 
         /* Dropdown Menu */
@@ -161,6 +146,15 @@
 
         .video-container {
             margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .video-title-centered {
+            margin-top: 10px;
+            font-size: 15px;
+            text-align: center;
         }
 
         /* Blue popup style */
@@ -184,13 +178,26 @@
             display: block;
         }
 
+        /* Hover Effect for Projects in Pop-up */
+        .popup p {
+            font-size: 20px;
+            margin: 10px 0;
+            transition: all 0.3s ease;
+        }
+
+        .popup p:hover {
+            font-size: 24px;
+            color: gold;
+            transform: scale(1.1);
+        }
+
     </style>
 </head>
 <body>
 
     <!-- Category Navigation -->
     <div class="categories">
-        <div class="category">
+        <div class="category" id="vfx-reel">
             <span>VFX Reel</span>
         </div>
 
@@ -198,15 +205,21 @@
             <span>Shipped Projects</span>
             <!-- Pop-up window with project names -->
             <div class="popup">
-                <p><strong>Cosmic Paradox: Noire</strong></p>
-                <p><strong>Magnitude / Magnitude Epsilon</strong></p>
-                <p><strong>Puzzle Piecer: The World Below</strong></p>
+                <p id="cosmic-paradox-link">Cosmic Paradox: Noire</p>
+                <p>Magnitude</p>
+                <p>Puzzle Piecer</p>
             </div>
         </div>
     </div>
 
     <!-- Project Sections -->
-    <div id="project1" class="project active">
+    <div id="vfx-reel-project" class="project active">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <h2>VFX Reel</h2>
         <video width="500" height="300" controls muted>
             <source src="videos/FxReel.mp4" type="video/mp4">
@@ -214,74 +227,64 @@
         </video>
     </div>
 
-    <div id="project2" class="project">
-        <h2>Explosion</h2>
-        <video width="500" height="300" controls muted>
-            <source src="videos/Explosion.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-
-    <div id="project3" class="project">
-        <h2>Meteor</h2>
-        <video width="500" height="300" controls muted>
-            <source src="videos/Meteor.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-
-    <div id="project4" class="project">
-        <h2>Illustration</h2>
-        <img src="images/illustration.jpg" width="400">
-    </div>
-
-    <div id="project5" class="project">
-        <h2>Character Design</h2>
-        <img src="images/character.jpg" width="400">
-    </div>
-
-    <!-- Cosmic Paradox Section (Hidden by default) -->
     <div id="cosmic-paradox" class="project">
-        <h2>Cosmic Paradox: Noire</h2>
-        <div class="videos">
-            <!-- Backgrounds -->
-            <h4>Backgrounds</h4>
-            <div class="video-container">
-                <h5>First Level Design</h5>
-                <video controls muted>
-                    <source src="videos/Noire/LevelDesign_01.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="video-container">
-                <h5>Second Level Design</h5>
-                <video controls muted>
-                    <source src="videos/Noire/LevelDesign_02.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="video-container">
-                <h5>Third Level Design</h5>
-                <video controls muted>
-                    <source src="videos/Noire/LevelDesign_03.mp4" type="video/mp4">
-                </video>
-            </div>
-
-            <!-- VFX -->
-            <h4>VFX</h4>
-            <div class="video-container">
-                <h5>Rampage VFX</h5>
-                <video controls muted>
-                    <source src="videos/Noire/Rampage.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="video-container">
-                <h5>Shield VFX</h5>
-                <video controls muted>
-                    <source src="videos/Noire/ShieldVFX.mp4" type="video/mp4">
-                </video>
-            </div>
-
-            <!-- Splash Screen -->
-            <h4>Splash Screen</h4>
+        <h1>Cosmic Paradox: Noire</h1>
+        <ul>
+    <li><strong>VFX:</strong> Created UI effects and the majority of in-game visual effects</li>
+    <li><strong>Background Design:</strong> Designed and developed backgrounds</li>
+    <li><strong>Optimization:</strong> Collaborated with programmers to optimize performance and resolve graphic issues for PC and PlayStation ports</li>
+    <li><strong>Visual Identity:</strong> Developed the game’s overall visual identity, ensuring consistency across all visual elements</li>
+    <br>
+    <br>
+    <br>
+</ul>
+        <h2>Level Bacgkrounds<h2/>
+        <div class="video-container">
+    <video controls muted>
+        <source src="videos/Noire/LevelDesign_01.mp4" type="video/mp4">
+    </video>
+    <h5 class="video-title-centered">First Level Design</h5>
+</div>
+<div class="video-container">
+    <video controls muted>
+        <source src="videos/Noire/LevelDesign_02.mp4" type="video/mp4">
+    </video>
+    <h8 class="video-title-centered">Second Level Design</h8>
+</div>
+<div class="video-container">
+    <video controls muted>
+        <source src="videos/Noire/LevelDesign_03.mp4" type="video/mp4">
+    </video>
+    <h5 class="video-title-centered">Third Level Design</h5>
+</div>
+<h2>VFX<h2/>
+<div class="video-container">
+    <video controls muted>
+        <source src="videos/Noire/Rampage.mp4" type="video/mp4">
+    </video>
+    <h5 class="video-title-centered">Rampage VFX</h5>
+</div>
+<div class="video-container">
+    <video controls muted>
+        <source src="videos/Noire/ShieldVFX.mp4" type="video/mp4">
+    </video>
+    <h5 class="video-title-centered">Shield VFX</h5>
+</div>
+<div class="video-container">
+    <video controls muted>
+        <source src="videos/Noire/UIVFX_01.mp4" type="video/mp4">
+    </video>
+    <h5 class="video-title-centered">UI fx</h5>
+</div>
+<div class="video-container">
+    <video controls muted>
+        <source src="videos/Noire/UIVFX_02.mp4" type="video/mp4">
+    </video>
+    <h5 class="video-title-centered">UI fx(02)</h5>
+</div>
+<br>
+<br>
+<h2>Splash Screen<h2/>
             <div class="video-container">
                 <video controls muted>
                     <source src="videos/Noire/SplashScreen_vfx.mp4" type="video/mp4">
@@ -289,33 +292,30 @@
             </div>
 
             <!-- Text VFX -->
-            <h4>Text VFX</h4>
+<br>
+<br>
+<h2>Text transition<h2/>
             <div class="video-container">
                 <video controls muted>
                     <source src="videos/Noire/Text_vfx.mp4" type="video/mp4">
-                </video>
-            </div>
-
-            <!-- UI Effects -->
-            <h4>UI Effects</h4>
-            <div class="video-container">
-                <video controls muted>
-                    <source src="videos/Noire/UIVFX_01.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="video-container">
-                <video controls muted>
-                    <source src="videos/Noire/UIVFX_02.mp4" type="video/mp4">
                 </video>
             </div>
         </div>
     </div>
 
     <script>
-        // When "Cosmic Paradox: Noire" is clicked, show the corresponding videos and remove the VFX Reel
-        document.querySelector('.popup').addEventListener('click', function() {
+        // When clicking on VFX Reel
+        document.getElementById('vfx-reel').addEventListener('click', function() {
+            // Show VFX Reel project and hide others
+            document.getElementById('vfx-reel-project').classList.add('active');
+            document.getElementById('cosmic-paradox').classList.remove('active');
+        });
+
+        // When clicking on Cosmic Paradox
+        document.getElementById('cosmic-paradox-link').addEventListener('click', function() {
+            // Show Cosmic Paradox and hide VFX Reel
+            document.getElementById('vfx-reel-project').classList.remove('active');
             document.getElementById('cosmic-paradox').classList.add('active');
-            document.getElementById('project1').classList.remove('active');
         });
     </script>
 
