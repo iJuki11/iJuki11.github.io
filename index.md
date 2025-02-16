@@ -231,7 +231,7 @@
       <li>VFX: Created UI effects and the majority of in-game visual effects</li>
       <li>Background Design: Designed and developed backgrounds</li>
       <li>Optimization: Collaborated with programmers to optimize performance and resolve graphic issues for PC and PlayStation ports</li>
-      <li>Visual Identity: Developed the game’s overall visual identity, ensuring consistency across all visual elements</strong></li>
+      <li>Visual Identity: Developed the game’s overall visual identity, ensuring consistency across all visual elements</li></strong>
       <br><br><br>
     </ul>
     <h2>Level Backgrounds</h2>
@@ -298,8 +298,8 @@
   <div id="magnitude" class="project">
   <ul>
       <strong><li>I managed all art-related aspects of the game, from concept development and environment design to VFX, and overall visual identity.</li></strong>
-      <br><br><br>
     </ul>
+          <br><br><br>
     <h2>Magnitude</h2>
     <div class="video-container">
       <video controls muted>
