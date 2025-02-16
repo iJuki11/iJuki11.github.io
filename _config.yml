@@ -1,3 +1,4 @@
+logo: "/images/logo.png?raw=false" # your photo (or logo) here
 title: Ivan Jurić # your name (or website title) here
   <br><br>
  
@@ -11,17 +12,6 @@ VFX
   <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
   <br><br>
   
-   <b>Shipped Titles</b>
-   <br>
-   <br>
-   <a href="https://store.playstation.com/en-hr/product/EP7345-PPSA20372_00-0018074913236815">Cosmic Paradox</a>
-   <br>
-   <a href="https://store.playstation.com/en-hr/product/EP7345-PPSA26549_00-0349027590004907">Magnitude</a>
-   <br>
-   <a href="https://store.playstation.com/en-hr/product/EP7345-PPSA20372_00-0018074913236815">Cosmic Paradox</a>
-   <br>
-
-   <hr style="height:2px;border-width:0;color:gray;background-color:#4b72b4">
  
   <b>TOOLS</b>
   <br>
@@ -57,6 +47,8 @@ VFX
   <br>
   iv.juric95@gmail.com
   <br><br>
+  
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
+google_analytics: UA-000000-0 # your Google Analytics tracking ID here
