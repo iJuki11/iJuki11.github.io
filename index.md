@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +13,7 @@
             background-size: cover;
             font-family: Arial, sans-serif;
             text-align: center;
-            color: blue;
+            background-color 0.3s, color 0.3s;
         }
 
         /* Category Section */
