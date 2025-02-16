@@ -128,7 +128,16 @@
 
         .videos h4 {
             width: 100%;
-            text-align: center;
+            text-align: left;
+            font-size: 30px;
+            margin-left: 20px;
+        }
+
+        .videos h5 {
+            width: 100%;
+            text-align: left;
+            font-size: 22px;
+            margin-left: 20px;
         }
 
         .video-container {
@@ -216,47 +225,66 @@
     <div id="cosmic-paradox" class="project">
         <h2>Cosmic Paradox: Noire</h2>
         <div class="videos">
+            <!-- Backgrounds -->
+            <h4>Backgrounds</h4>
             <div class="video-container">
-                <h4>Backgrounds</h4>
-                <video controls muted>
-                    <source src="videos/Noire/BackGroundMissionRecapDesign.mp4" type="video/mp4">
-                </video>
+                <h5>First Level Design</h5>
                 <video controls muted>
                     <source src="videos/Noire/LevelDesign_01.mp4" type="video/mp4">
                 </video>
+            </div>
+            <div class="video-container">
+                <h5>Second Level Design</h5>
                 <video controls muted>
                     <source src="videos/Noire/LevelDesign_02.mp4" type="video/mp4">
                 </video>
+            </div>
+            <div class="video-container">
+                <h5>Third Level Design</h5>
                 <video controls muted>
                     <source src="videos/Noire/LevelDesign_03.mp4" type="video/mp4">
                 </video>
             </div>
+
+            <!-- VFX -->
+            <h4>VFX</h4>
             <div class="video-container">
-                <h4>Some VFX</h4>
+                <h5>Rampage VFX</h5>
                 <video controls muted>
                     <source src="videos/Noire/Rampage.mp4" type="video/mp4">
                 </video>
+            </div>
+            <div class="video-container">
+                <h5>Shield VFX</h5>
                 <video controls muted>
                     <source src="videos/Noire/ShieldVFX.mp4" type="video/mp4">
                 </video>
             </div>
+
+            <!-- Splash Screen -->
+            <h4>Splash Screen</h4>
             <div class="video-container">
-                <h4>Splash Screen</h4>
                 <video controls muted>
                     <source src="videos/Noire/SplashScreen_vfx.mp4" type="video/mp4">
                 </video>
             </div>
+
+            <!-- Text VFX -->
+            <h4>Text VFX</h4>
             <div class="video-container">
-                <h4>Text VFX</h4>
                 <video controls muted>
                     <source src="videos/Noire/Text_vfx.mp4" type="video/mp4">
                 </video>
             </div>
+
+            <!-- UI Effects -->
+            <h4>UI Effects</h4>
             <div class="video-container">
-                <h4>UI Effects</h4>
                 <video controls muted>
                     <source src="videos/Noire/UIVFX_01.mp4" type="video/mp4">
                 </video>
+            </div>
+            <div class="video-container">
                 <video controls muted>
                     <source src="videos/Noire/UIVFX_02.mp4" type="video/mp4">
                 </video>
@@ -265,9 +293,10 @@
     </div>
 
     <script>
-        // When "Cosmic Paradox: Noire" is clicked, show the corresponding videos
+        // When "Cosmic Paradox: Noire" is clicked, show the corresponding videos and remove the VFX Reel
         document.querySelector('.popup').addEventListener('click', function() {
             document.getElementById('cosmic-paradox').classList.add('active');
+            document.getElementById('project1').classList.remove('active');
         });
     </script>
 
