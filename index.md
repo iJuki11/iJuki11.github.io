@@ -296,7 +296,7 @@
 
   <!-- Magnitude Section -->
   <div id="magnitude" class="project">
-    <h1>Magnitude</h1>
+  <h1>Magnitude</h1>
   <ul>
       <strong><li>I managed all art-related aspects of the game, from concept development and environment design to VFX, and overall visual identity.</li></strong>
     </ul>
@@ -319,7 +319,7 @@
   <div id="puzzle-piecer" class="project">
     <h1>Puzzle Piecer</h1>
     <ul>
-      <strong><li>I contributed to the game's puzzle art and handled all VFX, ensuring engaging visuals and smooth integration within the gameplay.</li></strong>
+      <strong><li>I contributed to the game's puzzle art and handled all VFX, ensuring engaging visuals and           smooth integration within the gameplay.</li></strong>
       <br><br><br>
     </ul>
     <video width="500" height="300" controls muted>
