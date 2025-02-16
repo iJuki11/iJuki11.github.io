@@ -12,7 +12,7 @@
       background-size: cover;
       font-family: Arial, sans-serif;
       text-align: center;
-      background-color 1s, color 1s;
+      /* transition properties here don't set colors */
       color: #000000;
     }
 
@@ -35,6 +35,7 @@
       display: inline-block;
       padding: 10px 20px;
       transition: background-color 0.3s, color 0.3s;
+      color: white;  /* default category text color */
     }
 
     /* Hover Animation for all Categories */
@@ -82,20 +83,17 @@
       display: block;
     }
 
-    .dropdown button {
-      background-color: transparent;
-      color: white;
-      border: none;
-      cursor: pointer;
-      font-size: 18px;
-      display: block;
-      width: 100%;
-      text-align: left;
-      padding: 8px 0;
+    .dropdown p {
+      font-size: 20px;
+      margin: 10px 0;
+      transition: all 0.3s ease;
+      color: white; /* default popup text color */
     }
 
-    .dropdown button:hover {
-      text-decoration: underline;
+    .dropdown p:hover {
+      font-size: 24px;
+      color: gold;
+      transform: scale(1.1);
     }
 
     /* Project Sections */
@@ -111,13 +109,7 @@
       display: block;
     }
 
-    /* Fine line for categories */
-    .category {
-      padding-bottom: 10px;
-      font-size: 28px;
-    }
-
-    /* Style for VFX Reel */
+    /* Style for VFX Reel and other video sections */
     .project iframe, .project video {
       width: 500px;
       height: 300px;
@@ -157,57 +149,21 @@
       font-size: 15px;
       text-align: center;
     }
-
-    /* Blue popup style */
-    .popup {
-      display: none;
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      transform: translateX(-50%);
-      background-color: #4b72b4;
-      padding: 20px;
-      color: white;
-      font-size: 18px;
-      border-radius: 5px;
-      width: 200px;
-      text-align: center;
-      z-index: 10;
-    }
-
-    .category:hover .popup {
-      display: block;
-    }
-
-    /* Hover Effect for Projects in Pop-up */
-    .popup p {
-      font-size: 20px;
-      margin: 10px 0;
-      transition: all 0.3s ease;
-    }
-
-    .popup p:hover {
-      font-size: 24px;
-      color: gold;
-      transform: scale(1.1);
-    }
   </style>
 </head>
 <body>
-
   <!-- Category Navigation -->
   <div class="categories">
     <div class="category" id="vfx-reel">
       <span>VFX Reel</span>
     </div>
-
     <div class="category">
       <span>Shipped Projects</span>
       <!-- Pop-up window with project names -->
       <div class="popup">
         <p id="cosmic-paradox-link">Cosmic Paradox: Noire</p>
         <p id="magnitude-link">Magnitude</p>
-        <p>Puzzle Piecer</p>
+        <p id="puzzle-piecer-link">Puzzle Piecer</p>
       </div>
     </div>
   </div>
@@ -215,7 +171,6 @@
   <!-- Project Sections -->
   <!-- VFX Reel Section (Default) -->
   <div id="vfx-reel-project" class="project active">
-    <br><br><br><br><br><br>
     <h2>VFX Reel</h2>
     <video width="500" height="300" controls muted>
       <source src="videos/FxReel.mp4" type="video/mp4">
@@ -277,14 +232,12 @@
       </video>
       <h5 class="video-title-centered">UI fx(02)</h5>
     </div>
-    <br><br>
     <h2>Splash Screen</h2>
     <div class="video-container">
       <video controls muted>
         <source src="videos/Noire/SplashScreen_vfx.mp4" type="video/mp4">
       </video>
     </div>
-    <br><br>
     <h2>Text Transition</h2>
     <div class="video-container">
       <video controls muted>
@@ -296,10 +249,6 @@
   <!-- Magnitude Section -->
   <div id="magnitude" class="project">
     <h2>Magnitude</h2>
-    <ul>
-      <strong>
-      <li>VFX: Vfx and whole art</li>
-        </strong>
     <div class="video-container">
       <video controls muted>
         <source src="videos/Magnitude/Shield.mp4" type="video/mp4">
@@ -314,28 +263,68 @@
     </div>
   </div>
 
+  <!-- Puzzle Piecer Section -->
+  <div id="puzzle-piecer" class="project">
+    <h2>Puzzle Piecer</h2>
+    <video width="500" height="300" controls muted>
+      <source src="videos/PuzzlePiecer/PuzzlePiecer.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <h2>2D Art</h2>
+    <div class="video-container">
+      <img src="videos/PuzzlePiecer/Ship.png" alt="Ship" width="500">
+      <h5 class="video-title-centered">Ship</h5>
+    </div>
+    <div class="video-container">
+      <img src="videos/PuzzlePiecer/Treasure.png" alt="Treasure" width="500">
+      <h5 class="video-title-centered">Treasure</h5>
+    </div>
+    <div class="video-container">
+      <img src="videos/PuzzlePiecer/WreckedShip.png" alt="Wrecked Ship" width="500">
+      <h5 class="video-title-centered">Wrecked Ship</h5>
+    </div>
+    <div class="video-container">
+      <img src="videos/PuzzlePiecer/Guys.png" alt="Guys" width="500">
+      <h5 class="video-title-centered">Guys</h5>
+    </div>
+    <div class="video-container">
+      <img src="videos/PuzzlePiecer/02_this.png" alt="02_this" width="500">
+      <h5 class="video-title-centered">02_this</h5>
+    </div>
+  </div>
+
   <script>
-    // When clicking on VFX Reel, show only the VFX Reel project.
+    // When clicking on VFX Reel: Show only VFX Reel section.
     document.getElementById('vfx-reel').addEventListener('click', function() {
       document.getElementById('vfx-reel-project').classList.add('active');
       document.getElementById('cosmic-paradox').classList.remove('active');
       document.getElementById('magnitude').classList.remove('active');
+      document.getElementById('puzzle-piecer').classList.remove('active');
     });
 
-    // When clicking on Cosmic Paradox, show only the Cosmic Paradox project.
+    // When clicking on Cosmic Paradox: Show only Cosmic Paradox section.
     document.getElementById('cosmic-paradox-link').addEventListener('click', function() {
       document.getElementById('vfx-reel-project').classList.remove('active');
       document.getElementById('cosmic-paradox').classList.add('active');
       document.getElementById('magnitude').classList.remove('active');
+      document.getElementById('puzzle-piecer').classList.remove('active');
     });
 
-    // When clicking on Magnitude in the popup, show only the Magnitude project.
+    // When clicking on Magnitude: Show only Magnitude section.
     document.getElementById('magnitude-link').addEventListener('click', function() {
       document.getElementById('vfx-reel-project').classList.remove('active');
       document.getElementById('cosmic-paradox').classList.remove('active');
       document.getElementById('magnitude').classList.add('active');
+      document.getElementById('puzzle-piecer').classList.remove('active');
+    });
+
+    // When clicking on Puzzle Piecer: Show only Puzzle Piecer section.
+    document.getElementById('puzzle-piecer-link').addEventListener('click', function() {
+      document.getElementById('vfx-reel-project').classList.remove('active');
+      document.getElementById('cosmic-paradox').classList.remove('active');
+      document.getElementById('magnitude').classList.remove('active');
+      document.getElementById('puzzle-piecer').classList.add('active');
     });
   </script>
-
 </body>
 </html>
