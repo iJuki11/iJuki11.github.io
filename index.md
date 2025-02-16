@@ -14,6 +14,7 @@
             text-align: center;
             background-color 1s, color 1s;
             color: #000000;
+            
         }
 
         /* Category Section */
