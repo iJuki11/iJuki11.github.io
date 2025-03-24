@@ -7,6 +7,22 @@
 
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+
+    <style>
+      .wrapper {
+          max-width: 100%;
+          padding: 0 15px;
+          box-sizing: border-box;
+      }
+
+      @media (max-width: 768px) {
+          .wrapper {
+              width: 90%;
+              margin: auto;
+          }
+      }
+    </style>
+
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -22,16 +38,6 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <!-- Removed GitHub project and user links -->
-        {%- comment -%}
-        {% if site.github.is_project_page %}
-          <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
-        {% if site.github.is_user_page %}
-          <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
-        {%- endcomment -%}
-
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -46,7 +52,6 @@
       </section>
 
       <footer>
-        <!-- Removed GitHub footer link -->
         {%- comment -%}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
         {%- endcomment -%}
