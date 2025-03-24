@@ -13,28 +13,12 @@
           max-width: 100%;
           padding: 0 15px;
           box-sizing: border-box;
-          display: flex;
-          flex-direction: row; /* Default layout for desktop */
-          flex-wrap: wrap;
-      }
-
-      .content {
-          flex: 2; /* Main content takes more space */
-          order: 1; /* Default position */
-      }
-
-      .reel {
-          flex: 1;
-          order: 2; /* Default position on desktop */
       }
 
       @media (max-width: 768px) {
           .wrapper {
-              flex-direction: column; /* Stack elements for mobile */
-          }
-
-          .reel {
-              order: -1; /* Moves reel to the top */
+              width: 90%;
+              margin: auto;
           }
       }
     </style>
@@ -45,56 +29,35 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="reel">
-        <!-- Add your reel content here -->
-        <h2>Reel Section</h2>
-      </div>
+      <header>
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
-      <div class="content">
-        <header>
-          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
 
-          {% if site.logo %}
-            <img src="{{site.logo | relative_url}}" alt="Logo" />
-          {% endif %}
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
+        {% if site.show_downloads %}
+        <ul class="downloads">
+          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+        </ul>
+        {% endif %}
+      </header>
 
-          {% if site.show_downloads %}
-          <ul class="downloads">
-            <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-            <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-            <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-          </ul>
-          {% endif %}
-        </header>
+      <section>
+        {{ content }}
+      </section>
 
-        <section>
-          {{ content }}
-        </section>
-
-        <footer>
-          {%- comment -%}
-          <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-          {%- endcomment -%}
-        </footer>
-      </div>
+      <footer>
+        {%- comment -%}
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        {%- endcomment -%}
+      </footer>
     </div>
-
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-          if (window.innerWidth <= 768) {
-              let reel = document.querySelector('.reel');
-              let wrapper = document.querySelector('.wrapper');
-              if (reel && wrapper) {
-                  wrapper.prepend(reel); // Moves reel to the top dynamically
-              }
-          }
-      });
-    </script>
-
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
